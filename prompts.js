@@ -138,7 +138,7 @@ Important Requirements:
 Photorealistic output, natural human anatomy, realistic facial proportions, accurate hand-free chest-up composition, clean measurement lines, no artificial beauty filters, no color, no modern backgrounds, no additional text, no logos, and no watermarks.`
   },
   {
-    image: 'images/6.png',
+    image: 'images/Fg.png',
     title: 'Filmy Grains',
     tags: ['Trending'],
     prompt: `Create an ultra-realistic vintage 35mm film photograph in a vertical 2:3 portrait composition.
