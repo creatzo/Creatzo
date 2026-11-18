@@ -113,18 +113,19 @@ footer h2{font-size:1.1rem;letter-spacing:-.02em;margin:0 0 10px;color:var(--fg)
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
+<script src="prompts.js"></script>
 <script>
 (()=>{
 const $=id=>document.getElementById(id);
-const items = [
-  {
-    id: 0,
-    t: 'Red Lighting Aesthetic',
-    tag: 'Red Lighting Aesthetic',
-    p: `Ultra-Realistic Cinematic Portrait – Red Lighting Aesthetic\n\nCreate an ultra-realistic, high-quality cinematic portrait photograph of a young South Asian man sitting casually against a dark grey upholstered sofa, captured in a vertical 9:16 composition.\n\nSubject & Appearance:\nA young man with naturally thick, voluminous, slightly messy black hair, styled in a textured fringe falling naturally across his forehead. Well-defined eyebrows, deep dark eyes, a straight nose, naturally shaped lips, a softly defined jawline, and realistic natural skin texture. Maintain authentic facial proportions, subtle facial details, and a relaxed, confident expression. His head is slightly tilted, looking directly into the camera with a calm, effortlessly stylish expression.\n\nOutfit:\nWearing a simple black knitted sweater with a subtle ribbed texture and a round neckline. Minimalist, completely black outfit with no visible logos, accessories, or unnecessary details.\n\nLighting & Color Grading:\nDramatic cinematic red lighting illuminating the left side of the subject's face, ear, neck, and cheek. The right side remains naturally darker, creating a beautiful contrast between intense crimson-red illumination and deep shadows. Soft red ambient light reflecting onto the background and sofa. Preserve natural skin tones beneath the red light. Deep blacks, rich shadows, subtle highlights, and professional cinematic color grading.\n\nBackground & Environment:\nMinimalist indoor setting with a dark charcoal-grey wall and a textured grey fabric sofa. The subject is leaning comfortably against the sofa. A subtle red glow appears on the wall behind him. Keep the environment dark, clean, and uncluttered.\n\nCamera & Composition:\nClose-up to medium-close portrait, slightly low camera angle, natural selfie-style perspective. Subject positioned centrally, with the face as the primary focal point. Vertical 9:16 framing, head and upper torso visible. Shallow depth of field with naturally soft background separation.\n\nPhotography Style:\nProfessional editorial portrait photography, cinematic moody atmosphere, low-key photography, dramatic red gel lighting, realistic skin pores, detailed individual hair strands, natural facial texture, realistic fabric details, subtle film grain, high dynamic range, accurate shadows, and premium DSLR photography aesthetics.\n\nQuality:\nUltra-photorealistic, 8K resolution, exceptionally detailed, sharp facial focus, natural texture, realistic lighting, professional photography, high-quality image processing.\n\nNegative Prompt:\nCartoon, anime, illustration, CGI, 3D render, artificial skin, plastic face, excessive smoothing, overexposure, blurry face, distorted facial features, asymmetrical eyes, extra fingers, deformed hands, unnatural hair, oversaturated red, harsh artificial sharpening, watermark, text, logo, low resolution, compression artifacts.`,
-    src: 'images/Red Lighting Aesthetic.png'
-  }
-];
+const items=(window.CREATZO_PROMPTS||[])
+  .map((o,i)=>({
+    id:i,
+    t:o.title||(o.image||'').split('/').pop().replace(/\.[^.]+$/,''),
+    tag:o.tag||'General',
+    p:(o.prompt||'').trim(),
+    src:o.image
+  }))
+  .filter(o=>o.p&&o.src);
 
 let q='',tag='All',counts={};
 try{counts=JSON.parse(localStorage.getItem('creatzo:copies')||'{}')||{}}catch(e){counts={}}
