@@ -56,9 +56,25 @@ Important: Preserve realistic human anatomy, natural hand and finger proportions
   },
   {
     image: 'images/New Project (4).png',
-    title: 'New Project (4)',
-    tag: 'New Project',
-    prompt: ``   // <-- yahan is image ka prompt paste karo
+    title: 'Eye Blur Black',
+    tag: 'trending','Black'
+    prompt: Create an ultra-realistic black-and-white cinematic portrait of a stylish young Indian man standing confidently indoors, captured from the waist up.
+
+Appearance: Thick, naturally curly, voluminous black hair with a slightly messy texture, neatly groomed light beard and moustache, attractive natural facial features. His head is slightly turned to one side.
+
+Blindfold: A wide, dark textured cloth blindfold wrapped horizontally around his eyes, completely covering both eyes, creating a mysterious aesthetic.
+
+Outfit: Oversized plain black sweatshirt with a round neckline, relaxed and stylish fit.
+
+Background: A bedroom or creative studio wall covered with overlapping vintage black-and-white fashion magazine posters, celebrity photographs, and editorial cutouts.
+
+Lighting: Soft directional indoor lighting, realistic shadows, high contrast, subtle film grain, deep blacks and beautiful grayscale tones.
+
+Photography: Professional editorial fashion photography, realistic skin texture, sharp hair details, cinematic composition, moody atmosphere, DSLR quality, 4K resolution.
+
+Composition: Vertical 4:5 portrait, subject centered, waist-up framing, natural standing pose, head slightly turned.
+
+Important: Maintain realistic human proportions, natural facial details, and an authentic photographic appearance. No colors, no text overlays, no watermark.'   // <-- yahan is image ka prompt paste karo
   },
   {
     image: 'images/New Project (5).png',
