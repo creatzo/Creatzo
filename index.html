@@ -51,13 +51,16 @@ h2{font-weight:900;font-size:clamp(1.8rem,5vw,3rem);letter-spacing:-.04em;line-h
 .chip{font:500 14px Roboto,Arial,sans-serif;padding:7px 16px;border:1px solid var(--accent);border-radius:99px;background:var(--bg);color:var(--fg);cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-fg)}
 .shown{margin:0 0 20px;color:var(--mute);font-size:14px}
-.grid{display:grid;grid-template-columns:1fr;gap:24px 16px}
-@media(min-width:560px){.grid{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}
-@media(min-width:1200px){.grid{grid-template-columns:repeat(4,1fr)}}
-.card{min-width:0}
+/* Masonry: har image apni REAL size/ratio me dikhti hai (crop nahi hoti) */
+.grid{column-count:1;column-gap:16px}
+@media(min-width:560px){.grid{column-count:2}}
+@media(min-width:900px){.grid{column-count:3}}
+@media(min-width:1200px){.grid{column-count:4}}
+.card{min-width:0;break-inside:avoid;-webkit-column-break-inside:avoid;page-break-inside:avoid;margin:0 0 24px}
 .shot{position:relative;display:block;width:100%;padding:0;border:1px solid var(--line);background:none;cursor:pointer;overflow:hidden;font:inherit}
-.shot img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover}
+.shot{container-type:inline-size}
+.shot img{display:block;width:100%;height:auto}
+.shot img.wm{position:absolute;height:auto;pointer-events:none;user-select:none;-webkit-user-select:none;z-index:1}
 .tip{position:absolute;inset:auto 0 0;padding:11px;background:var(--tip-bg);color:var(--tip-fg);font-weight:700;font-size:14px;text-align:center;transform:translateY(101%);transition:transform .18s}
 .shot:hover .tip,.shot:focus-visible .tip,.card.done .tip{transform:none}
 .meta{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-top:10px}
@@ -135,10 +138,20 @@ const items=(window.CREATZO_PROMPTS||[])
       tags,
       p:(o.prompt||'').trim(),
       src:o.image,
-      k:slug(o.key||(o.image||'').split('/').pop().replace(/\.[^.]+$/,''))||('item-'+i)
+      k:slug(o.key||(o.image||'').split('/').pop().replace(/\.[^.]+$/,''))||('item-'+i),
+      wm:o.watermark!==false
     };
   })
   .filter(o=>o.p&&o.src);
+/* ---- AUTO WATERMARK (settings prompts.js me: window.CREATZO_WATERMARK) ---- */
+const WMC=Object.assign({enabled:true,src:'images/watermark.png',position:'top-left',size:15.5,x:7.3,y:3.5,opacity:1},window.CREATZO_WATERMARK||{});
+const wmHtml=(()=>{
+  if(!WMC.enabled||!WMC.src)return '';
+  const pos=String(WMC.position),sz=+WMC.size||15.5,x=+WMC.x||0,y=+WMC.y||0;
+  const h=pos.includes('right')?'right':'left',v=pos.includes('bottom')?'bottom':'top';
+  const st=`width:${sz}%;opacity:${Math.min(1,Math.max(0,+WMC.opacity))};${h}:${x}%;${v}:${y}%;${h}:${x}cqw;${v}:${y}cqw`;
+  return `<img class="wm" src="${String(WMC.src).replace(/"/g,'')}" alt="" aria-hidden="true" draggable="false" style="${st}" onerror="this.remove()">`;
+})();
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 
 let q='',tag='All',counts={};
@@ -178,7 +191,7 @@ function render(){
   }
   const ks=q.toLowerCase().split(/\s+/).filter(Boolean);
   const list=items.filter(o=>(tag==='All'||o.tags.includes(tag))&&ks.every(w=>(o.t+' '+o.tags.join(' ')+' '+o.p).toLowerCase().includes(w)));
-  $('grid').innerHTML=list.map(o=>`<article class="card" data-id="${o.id}"><button class="shot" type="button" aria-label="Copy prompt for ${esc(o.t)}"><img src="${esc(o.src)}" alt="${esc(o.t)}, ${esc(o.tags.join(', '))} AI image prompt" width="400" height="400" loading="lazy"><span class="tip">Click to copy prompt</span></button><div class="meta"><h3>${esc(o.t)}</h3><span class="cnt">${word(counts[o.k]||0)}</span></div><p class="pr">${esc(o.p)}</p></article>`).join('');
+  $('grid').innerHTML=list.map(o=>`<article class="card" data-id="${o.id}"><button class="shot" type="button" aria-label="Copy prompt for ${esc(o.t)}"><img src="${esc(o.src)}" alt="${esc(o.t)}, ${esc(o.tags.join(', '))} AI image prompt" loading="lazy" decoding="async">${o.wm?wmHtml:''}<span class="tip">Click to copy prompt</span></button><div class="meta"><h3>${esc(o.t)}</h3><span class="cnt">${word(counts[o.k]||0)}</span></div><p class="pr">${esc(o.p)}</p></article>`).join('');
   $('empty').hidden=list.length>0;
   $('shown').textContent=`Showing ${list.length} of ${items.length} prompts`;
 }
