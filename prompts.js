@@ -187,7 +187,7 @@ Keep the face completely dark and unrecognizable. Do not add text, logos, or wat
   },
     {
     image: 'images/1.png',
-    title: 'White Circle Portrait,
+    title: 'White Circle Portrait',
     tags: ['Trending','Portrait'],
     prompt: `A highly realistic professional portrait of a handsome young Indian boy with thick, voluminous, stylish black hair, wearing black round aviator sunglasses and a small silver stud earring. He is dressed in a red, white and pink oversized checkered shirt with sleeves rolled up, wearing a black smartwatch. He is standing confidently with one hand holding the opposite sleeve, looking slightly towards the left side. A large glowing white circular halo light behind his head, dark smoky charcoal grey studio background, cinematic lighting, premium professional photoshoot, sharp facial details, realistic skin texture, DSLR photography, 85mm lens, shallow depth of field, ultra HD, 8K quality, perfectly detailed, vertical 9:16 portrait.`
   },
