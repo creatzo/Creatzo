@@ -185,6 +185,92 @@ Composition: Vertical 9:16 portrait, centered subject, chest-up framing, mysteri
 
 Keep the face completely dark and unrecognizable. Do not add text, logos, or watermarks.`
   },
+    {
+    image: 'images/1.png',
+    title: 'White Circle Portrait,
+    tags: ['Trending','Portrait'],
+    prompt: `A highly realistic professional portrait of a handsome young Indian boy with thick, voluminous, stylish black hair, wearing black round aviator sunglasses and a small silver stud earring. He is dressed in a red, white and pink oversized checkered shirt with sleeves rolled up, wearing a black smartwatch. He is standing confidently with one hand holding the opposite sleeve, looking slightly towards the left side. A large glowing white circular halo light behind his head, dark smoky charcoal grey studio background, cinematic lighting, premium professional photoshoot, sharp facial details, realistic skin texture, DSLR photography, 85mm lens, shallow depth of field, ultra HD, 8K quality, perfectly detailed, vertical 9:16 portrait.`
+  },
+  {
+    image: 'images/2.png',
+    title: 'Green',
+    tags: ['Trending', 'Portrait'],
+    prompt: `Ultra-realistic professional portrait of a handsome young Indian man with thick, voluminous, messy textured black hair, a neatly trimmed beard and mustache, and a charming natural smile. Wearing a stylish dark maroon button-down shirt with the top buttons open and sleeves casually rolled up, a thin black necklace with a silver pendant, and black trousers. Standing casually with both hands inside his trouser pockets, looking directly at the camera. Beautiful outdoor garden background with dark green and olive-colored blurred trees, cinematic natural lighting, soft golden sunlight, DSLR photography, creamy bokeh effect, realistic skin texture, professional fashion photoshoot, sharp facial details, 85mm portrait lens, ultra HD, 8K quality, vertical 9:16 composition.`
+  },
+  {
+    image: 'images/3.png',
+    title: 'P4',
+    tags: ['Trending', 'photography'],
+    prompt: `Ultra-realistic cinematic full-body portrait of a handsome young Indian boy with thick, voluminous, fluffy black hair styled in a messy Korean-inspired hairstyle, clean-shaven face and a serious yet confident expression. Wearing an oversized black denim jacket with a popped collar over a plain black T-shirt, paired with black jeans. A thin black necklace with a small silver pendant. Standing casually with one hand holding the bottom of his jacket and the other hand relaxed by his side, wearing a stylish silver ring. Moody outdoor background with dark green leaves on the left and a softly blurred grey concrete wall behind him. Dark cinematic atmosphere, muted black and grey color grading, soft natural lighting, professional fashion photography, realistic skin texture, sharp facial details, DSLR portrait, 85mm lens, shallow depth of field, ultra HD, 8K quality, vertical 9:16 composition.`
+  },
+  {
+    image: 'images/4.png',
+    title: 'Black Shoot',
+    tags: ['Trending', 'Black','Portrait'],
+    prompt: `Ultra-realistic cinematic romantic couple portrait of a young Indian boy and a beautiful young Indian girl standing closely together. The boy has thick, voluminous, messy fluffy black hair and a clean-shaven face, wearing an oversized black denim jacket over a plain black T-shirt, black jeans and a thin silver pendant necklace. The girl has long, naturally wavy black hair, a sweet smiling expression, wearing an oversized dark grey denim jacket over a black top with delicate layered necklaces. She is standing slightly behind the boy, lovingly wrapping one arm around his shoulders and resting her other hand gently on his chest. Both looking towards the camera. Beautiful natural couple pose, monochrome grey outdoor background with blurred trees and foliage, cinematic soft lighting, black and grey color grading, realistic skin texture, professional DSLR photography, shallow depth of field, 85mm lens, ultra-detailed, 8K quality, vertical 9:16 portrait.`
+  },
+  {
+    image: 'images/5.png',
+    title: 'Midday Shot',
+    tags: ['Trending', 'Black'],
+    prompt: `Create an ultra-realistic cinematic romantic photoshoot collage featuring the same young Indian boy in three different poses, arranged vertically in a beautiful 9:16 poster layout.
+
+Outfit: Oversized white shirt with the top buttons open, sleeves casually rolled up, black trousers, stylish black wristwatch, small black stud earring and naturally styled thick black hair with a voluminous side-swept hairstyle.
+
+Pose 1: Standing in a green field, slightly tilting his head, one hand touching his shirt collar, looking directly at the camera.
+
+Pose 2: Looking downward with one hand running through his hair, giving a dreamy romantic expression.
+
+Pose 3: Standing sideways with one hand in his pocket, looking back towards the camera.
+
+Background: Beautiful lush green countryside field, softly blurred trees, warm golden-hour sunlight, dreamy natural bokeh, cinematic romantic atmosphere.
+
+Editing: Professional DSLR photography, soft skin tones, realistic facial details, creamy background blur, warm cinematic color grading, high resolution, ultra-detailed 8K quality.
+
+Add elegant dark green typography in the center:
+"MAIN HOON"
+"DEEWANA TERA"
+
+Use stylish handwritten brush lettering for "DEEWANA TERA".
+
+IMPORTANT: Use my uploaded photo as the exact face reference. Preserve my original facial identity, face shape, eyes, nose, lips and skin tone. Do not change my face. Keep the same person in all three photographs. ❤️`
+  },
+  {
+    image: 'images/6.png',
+    title: 'Green Garden',
+    tags: ['Trending', 'Green'],
+    prompt: `Create an ultra-realistic cinematic portrait of a stylish young Indian boy standing casually outdoors in a beautiful lush green garden.
+
+Appearance: Thick, voluminous, naturally fluffy black hair styled upwards with a slightly messy texture, a neat moustache and subtle beard, wearing stylish black rectangular sunglasses.
+
+Outfit: Oversized plain black half-sleeve T-shirt paired with light beige trousers, giving a clean, modern streetwear look.
+
+Pose: Standing casually with both hands relaxed near his pockets, body slightly tilted, head turned gently to the side, looking confidently away from the camera with a charming expression.
+
+Background: Beautiful dark green tropical garden with dense blurred foliage, large out-of-focus green leaves in the foreground, dreamy natural bokeh and soft cinematic sunlight.
+
+Photography: Professional DSLR fashion photography, realistic skin texture, natural facial details, shallow depth of field, creamy background blur, moody dark green color grading, soft natural lighting, 85mm lens, ultra-detailed, 8K quality, vertical 9:16 composition.
+
+IMPORTANT: Use my uploaded photo as the exact face reference. Preserve my original facial identity, face shape, eyes, nose, lips and skin tone. Do not change my face. Keep the result natural and photorealistic. ❤️`
+  },
+    {
+    image: 'images/7.png',
+    title: 'P7',
+    tags: ['Trending', 'Black'],
+    prompt: `Create an ultra-realistic cinematic professional portrait of a handsome young Indian boy standing confidently outdoors, holding a professional Canon DSLR camera with a large white telephoto lens.
+
+Appearance: Thick, voluminous, messy textured black hair styled upwards with a natural side-swept fringe, charming broad smile, neatly groomed light beard and moustache, sharp natural facial details.
+
+Outfit: Dark navy blue T-shirt layered with an oversized black and dark blue casual shirt, paired with white trousers. Wearing a silver bracelet and a red thread bracelet on his wrist.
+
+Pose: Standing confidently while holding a professional DSLR camera with both hands, one hand gripping the camera body and the other supporting the large telephoto lens. Looking directly at the camera with a beautiful natural smile.
+
+Background: Dark cinematic outdoor background with soft blurred trees, beautiful grey foliage in the foreground, a bright dreamy light source on the right side and subtle natural bokeh.
+
+Photography: Professional fashion photographer portrait, DSLR quality, cinematic lighting, realistic skin texture, sharp facial details, shallow depth of field, dramatic dark color grading, 85mm lens, ultra HD, 8K resolution, vertical 9:16 composition.
+
+IMPORTANT: Use my uploaded photo as the exact face reference. Preserve my original facial identity, face shape, eyes, nose, lips and skin tone. Do not change my face. Keep the same person and make the result completely photorealistic. ❤️`
+  },
 
   // ---- Naya prompt: is template ko copy karke upar add karo ----
   // {
