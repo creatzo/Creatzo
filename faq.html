@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FAQ – creatzo</title>
+<meta name="theme-color" content="#000000">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
+<style>
+:root{--bg:#fff;--fg:#000;--mute:#5f5f5f;--line:#d9d9d9}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#000;--fg:#fff;--mute:#a3a3a3;--line:#2b2b2b;color-scheme:dark}}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 16px/1.6 Roboto,Arial,sans-serif}
+.bar{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;padding:14px 20px;background:var(--bg);border-bottom:1px solid var(--line)}
+.logo{font-weight:900;font-size:24px;text-decoration:none}
+.bar nav{display:flex;gap:20px;font-size:15px;font-weight:500}
+.bar nav a{text-decoration:none}
+.wrap{max-width:900px;margin:0 auto;padding:56px 20px}
+h1{font-weight:900;font-size:clamp(2rem,5vw,3rem);margin-bottom:20px}
+details{border-top:1px solid var(--line);padding:16px 0}
+details:last-child{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-weight:700;font-size:1.1rem}
+details p{margin:10px 0 0;color:var(--mute)}
+</style>
+</head>
+<body>
+<header class="bar">
+  <a class="logo" href="index.html">creatzo</a>
+  <nav><a href="index.html">Gallery</a><a href="about.html">About</a><a href="faq.html">FAQ</a></nav>
+</header>
+<main class="wrap">
+  <h1>Frequently Asked Questions</h1>
+  <details><summary>How do I copy a prompt?</summary><p>Click or tap an image. The prompt is copied to your clipboard and the copy count goes up by one.</p></details>
+  <details><summary>Is creatzo free?</summary><p>Yes. Browsing the gallery and copying prompts is free.</p></details>
+  <details><summary>Which AI tools work with these prompts?</summary><p>The prompts are plain text, so they work with any text to image generator.</p></details>
+  <details><summary>Where is my copy count saved?</summary><p>Counts are saved in your own browser, so they stay on your device.</p></details>
+</main>
+</body>
+</html>
