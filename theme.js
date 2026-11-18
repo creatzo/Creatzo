@@ -24,26 +24,11 @@
      1) CONFIG  –  yahan se poori site ka default control karo
      ========================================================================= */
   var CONFIG = {
-    // 'auto' = visitor ke device ki light/dark setting | 'light' | 'dark'
-    defaultMode: 'auto',
-
-    // 'mono' | 'ocean' | 'sunset' | 'forest' | 'rose' | 'violet'
-    defaultPreset: 'mono',
-
-    // true  = neeche-right me theme button dikhega (visitors bhi badal sakte hain)
-    // false = panel band; sirf yahan likhi hui theme sab ko dikhegi
-    showPanel: true,
-
-    // Browser me choice save karne ka naam
-    storageKey: 'creatzo:theme',
-
-    // SITE-WIDE color overrides (sab visitors ke liye, preset ke upar lagte hain).
-    // Example:
-    //   overrides: { light: { accent: '#ff3b30' }, dark: { accent: '#ff6b61' } }
-    // Khaali chhodo to preset ke original colors use honge.
-    overrides: { light: {}, dark: {} }
-  };
-
+  preset: 'mono',   // 'mono' | 'ocean' | 'sunset' | 'forest' | 'rose' | 'violet'
+  mode: 'auto',     // 'auto' | 'light' | 'dark'
+  light: {},        // optional custom colors, light mode ke liye
+  dark: {}          // optional custom colors, dark mode ke liye
+};
   /* =========================================================================
      2) COLOR TOKENS  –  site ke har color ka naam (CSS variable)
         bg          page background            --bg
