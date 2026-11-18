@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About – creatzo</title>
+<meta name="theme-color" content="#000000">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
+<style>
+:root{--bg:#fff;--fg:#000;--mute:#5f5f5f;--line:#d9d9d9}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#000;--fg:#fff;--mute:#a3a3a3;--line:#2b2b2b;color-scheme:dark}}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 16px/1.6 Roboto,Arial,sans-serif}
+.bar{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;padding:14px 20px;background:var(--bg);border-bottom:1px solid var(--line)}
+.logo{font-weight:900;font-size:24px;text-decoration:none}
+.bar nav{display:flex;gap:20px;font-size:15px;font-weight:500}
+.bar nav a{text-decoration:none}
+.wrap{max-width:900px;margin:0 auto;padding:56px 20px}
+h1{font-weight:900;font-size:clamp(2rem,5vw,3rem);margin-bottom:20px}
+p{color:var(--mute);line-height:1.8}
+</style>
+</head>
+<body>
+<header class="bar">
+  <a class="logo" href="index.html">creatzo</a>
+  <nav><a href="index.html">Gallery</a><a href="about.html">About</a><a href="faq.html">FAQ</a></nav>
+</header>
+<main class="wrap">
+  <h1>About creatzo</h1>
+  <p>creatzo is a clean gallery of AI image prompts. Every artwork comes with the exact prompt that describes it, so you can paste it into your favorite AI image generator and make your own version in seconds.</p>
+  <p>Search by style, shape or mood, filter by category, and click any image to copy its prompt. Each prompt shows how many times it has been copied.</p>
+</main>
+</body>
+</html>
