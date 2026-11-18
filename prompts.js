@@ -270,13 +270,5 @@ Background: Dark cinematic outdoor background with soft blurred trees, beautiful
 Photography: Professional fashion photographer portrait, DSLR quality, cinematic lighting, realistic skin texture, sharp facial details, shallow depth of field, dramatic dark color grading, 85mm lens, ultra HD, 8K resolution, vertical 9:16 composition.
 
 IMPORTANT: Use my uploaded photo as the exact face reference. Preserve my original facial identity, face shape, eyes, nose, lips and skin tone. Do not change my face. Keep the same person and make the result completely photorealistic. ❤️`
-  },
-
-  // ---- Naya prompt: is template ko copy karke upar add karo ----
-  // {
-  //   image: 'images/your-image.png',
-  //   title: 'Image Title',
-  //   tags: ['Style 1', 'Style 2'],
-  //   prompt: `Yahan prompt likho`
-  // },
+  }
 ];
