@@ -51,7 +51,7 @@ Negative Prompt:
 Cartoon, anime, illustration, CGI, 3D render, artificial skin, plastic face, excessive smoothing, overexposure, blurry face, distorted facial features, asymmetrical eyes, extra fingers, deformed hands, unnatural hair, oversaturated red, harsh artificial sharpening, watermark, text, logo, low resolution, compression artifacts.`
   },
   {
-    image: 'images/3.png',
+    image: 'images/xxx.png',
     title: 'Smoke Me',
     tags: ['Trending'],
     prompt: `Create a dark, moody, cinematic editorial portrait photograph in a vertical 9:16 aspect ratio.
