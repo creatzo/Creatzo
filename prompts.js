@@ -306,5 +306,559 @@ Background: Dark cinematic outdoor background with soft blurred trees, beautiful
 Photography: Professional fashion photographer portrait, DSLR quality, cinematic lighting, realistic skin texture, sharp facial details, shallow depth of field, dramatic dark color grading, 85mm lens, ultra HD, 8K resolution, vertical 9:16 composition.
 
 IMPORTANT: Use my uploaded photo as the exact face reference. Preserve my original facial identity, face shape, eyes, nose, lips and skin tone. Do not change my face. Keep the same person and make the result completely photorealistic. ❤️`
+  },
+    {
+    image: 'images/12.webp',
+    title: 'Spider Mask Selfie',
+    tags: ['Trending', 'Girls'],
+    prompt: `A creative and edgy mirror selfie of a young man holding a smartphone with a manga-style case, wearing a plain white t-shirt. **Visual Effects & Background:** His head is completely replaced by a 2D comic-book style illustration of a Spider-Man mask. Above his head, the word "SPIDER" is written in large, dripping red graffiti letters. To the right, a red and white sticker reads "HELLO my name is itz_Ritz". On the left, comic-style graphics include a red speech bubble saying "DUDE" and a yellow explosion shape with "OMG!". **Background:** A bedroom wall is visible in the mirror reflection, densely covered with a grid of small collectible trading cards. Soft, warm indoor lighting. 8k Ultra HD colourfull Cenmatic Images Quality, HDR IOS XHDR, DLRS, Background enhanced. Aspect Ratio: 3:4, Resolution: 736 x 981.`
+  },
+  {
+    image: 'images/11.webp',
+    title: 'Floral Tanu',
+    tags: ['Trending', 'Girls'],
+    prompt: `Create a hyper-realistic, ultra-detailed, 8k Ultra HD cinematic portrait of a beautiful young woman, capturing the essence of a whimsical, dreamy, and elegant floral aesthetic. The composition is a medium shot, focusing on the subject from the mid-thigh up, set against a highly stylized, multi-layered graphic background. The woman is standing with a relaxed posture, slightly angled to her right, but looking directly at the viewer with a warm, captivating, and gentle smile. Her right hand is delicately raised, with her fingers lightly resting near her chin and cheek, while her left arm crosses her body, resting gently on her waist.
+
+Focus heavily on the intricate details of her appearance and attire. She has long, thick, dark brown wavy hair that cascades elegantly over her left shoulder, with a few loose strands framing her face. Adorning the right side of her hair is a beautiful, decorative floral clip featuring small white and deep purple/maroon flowers. She wears a subtle bindi and a soft, natural makeup look with a bold, reddish-pink lip color. Her clothing is a beautiful, soft coral-pink semi-sheer fabric, likely a saree or a draped dress, featuring delicate silver and pearl-like embellishments along the v-neckline and the edges. A thin silver bracelet is visible on her right wrist.
+
+The background is a complex, surreal, and artistic composition. The primary backdrop is a textured, soft pink surface that resembles a painted canvas or a wall, with fluffy, realistic white clouds floating across it. The word "TANU" is written in massive, elegant, deep maroon 3D serif letters in the upper center, with cherry blossom branches intertwined with the text. A white dove is depicted flying in the top right corner, carrying a small green branch. Several soft, pink flower petals are floating and falling gently around her. The bottom foreground is heavily framed by a dense cluster of large, vibrant yellow sunflowers, while the sides are framed by green, leafy plant fronds. The overall lighting is soft, warm, and ethereal, with a gentle glow on her face, highlighting her features and the intricate details of her outfit. Aspect Ratio: 3:4, Resolution: 736 x 981. 8k Ultra HD colourfull Cenmatic Images Quality, HDR IOS XHDR, DLRS, Background enhanced.`
+  },
+  {
+    image: 'images/10.webp',
+    title: 'Golden Rim Light',
+    tags: ['Trending', 'Boys'],
+    prompt: `Create Cinematic outdoor portrait of a young Indian man standing in three-quarter profile with his hands in his pockets, looking off into the distance with a calm, thoughtful expression. Messy dark curly hair strongly rim-lit with a golden halo, trimmed dark beard, dark stylish sunglasses. Wearing an slim fit chunky teal-blue ribbed knit sweater with a fuzzy backlit outline and medium fit dark trousers. Background: deep blue forest with creamy golden bokeh highlights in the upper corners.9:16.`
+  },
+  {
+    image: 'images/13.webp',
+    title: 'Windows XP Y2K',
+    tags: ['Trending', 'Boys', 'Black'],
+    prompt: `Create an ultra-realistic, cinematic, vintage-inspired Y2K digital art fashion editorial photograph featuring a young man in a stylish monochromatic indoor setting, blended with nostalgic early-2000s Windows computer interface elements.
+
+Preserve Facial Identity: Use the uploaded reference photo to preserve the exact facial identity of the person, including original face shape, facial proportions, eyes, eyebrows, nose, lips, jawline, hairstyle, and natural skin texture. Do not beautify, reshape, or alter his identity.
+
+Pose & Composition: The young man is standing casually against a textured indoor wall, with his arms folded naturally across his chest. His posture is relaxed and confident, with his head slightly turned to the side. Capture his full upper body and waist in a vertical editorial composition.
+
+Outfit & Styling: An oversized white textured button-up shirt with rolled sleeves, paired with loose-fitting black trousers. Minimal accessories and effortless vintage streetwear styling.
+
+Background & Environment: A monochromatic black-and-white interior featuring large textured wall panels, abstract curved patterns, subtle architectural details, and a small indoor plant in the corner. Add a high-contrast vintage photocopy texture with subtle grain, halftone patterns, and analog scanline effects.
+
+Windows Interface Elements: Overlay a realistic vintage Windows XP Media Player window directly over the subject's face, displaying a black-and-white video still of the same person in a side-profile pose. Include authentic blue Windows XP title bars, minimize, maximize and close buttons, classic playback controls, and the nostalgic Media Player interface.
+
+At the lower center of the image, create multiple overlapping Windows XP warning dialog boxes arranged in a cascading staircase pattern. Each dialog should have a blue title bar reading "Warning", a yellow triangular warning icon, and a vintage grey Windows interface. The front dialog should display the message:
+
+"Your existence will now be erased"
+
+With a rectangular button underneath reading:
+
+"Finally I'll be free"
+
+Add a large pixelated white Windows mouse cursor with a black outline near the subject's arm, pointing toward the warning windows.
+
+Visual Style & Atmosphere: Entire photograph in dramatic black and white with deep blacks, bright whites, strong contrast, subtle film grain, photocopied newspaper textures, distorted halftone patterns, and a nostalgic 1990s–2000s computer aesthetic. The Windows XP interface elements should retain their original blue and grey colors, creating a striking contrast against the monochrome photograph.
+
+Photography & Quality: Ultra-realistic fashion photography, editorial composition, sharp fabric details, natural body proportions, authentic vintage computer graphics, artistic digital collage, sophisticated Y2K internet nostalgia, experimental graphic design, 4K detail, vertical 9:16 aspect ratio.
+
+Important: Keep the Windows interface elements realistic and properly layered. The Media Player window must cover the face, warning pop-ups must overlap the lower torso, and the pixel cursor must remain visible. Avoid unnecessary text, watermarks, logos, or additional decorative elements.`
+  },
+  {
+    image: 'images/14.webp',
+    title: 'Sunflower Octopus',
+    tags: ['Trending', 'Boys', 'Portrait'],
+    prompt: `Create an ultra-realistic, surreal, cinematic photographic editorial portrait featuring a young man in a relaxed, dreamy pose, surrounded by a giant vibrant yellow sunflower, delicate blue butterflies, and a tiny adorable baby octopus sitting on top of his head. The composition should feel like a creative vintage-inspired digital art collage with a nostalgic yet playful aesthetic.
+
+Preserve Facial Identity: Use the uploaded reference photo to preserve the exact facial identity of the person, including original face shape, facial proportions, eyes, eyebrows, nose, lips, jawline, hairstyle, facial hair, and natural skin texture. Do not beautify, reshape, or alter the person's identity.
+
+Pose & Expression: Position the young man leaning back casually with one arm resting behind his head and the other hand naturally placed near his waist. Give him a peaceful, slightly smiling expression with gently closed eyes, creating a relaxed and dreamy atmosphere.
+
+Outfit & Styling: Dress him in an oversized black vintage graphic sweatshirt featuring a distressed monochrome artistic print and subtle typography, paired with relaxed-fit washed grey denim jeans. Maintain realistic fabric textures, natural folds, and an effortlessly stylish streetwear appearance.
+
+Creative Background & Elements:
+
+- A massive, fully bloomed golden-yellow sunflower positioned directly behind his head, creating a beautiful floral halo effect.
+
+- Three delicate blue butterflies with realistic wings, positioned naturally around the sunflower.
+
+- A tiny, adorable grey baby octopus sitting on top of his hairstyle, featuring a soft rounded head, tiny tentacles, and expressive sparkling eyes.
+
+- A rich, deep crimson-red solid background that creates a striking contrast against the golden sunflower.
+
+- Carefully layered surreal collage elements with realistic shadows and depth.
+
+Photography & Visual Treatment: Render the young man in dramatic black-and-white photography while keeping the sunflower bright golden yellow, butterflies vivid electric blue, and background deep crimson red. Maintain sharp facial details, realistic skin texture, detailed hair strands, and high-quality photographic contrast.
+
+Lighting & Camera: Soft studio lighting, subtle directional shadows, professional fashion editorial photography, 85mm portrait lens, crisp focus, fine film grain, rich tonal contrast, and premium magazine-quality composition.
+
+Overall Aesthetic: A surreal combination of vintage monochrome portraiture, vibrant botanical beauty, whimsical fantasy elements, and modern streetwear editorial styling. Ultra-detailed, photorealistic, artistic, visually balanced, and cinematic.
+
+Aspect Ratio: Vertical 4:5 portrait composition. No borders, no watermark, no extra text, and no unnecessary objects.`
+  },
+  {
+    image: 'images/15.webp',
+    title: 'Vintage Stamp Collage',
+    tags: ['Trending', 'Boys'],
+    prompt: `Create an ultra-realistic, cinematic, vintage-inspired black-and-white and color mixed photographic editorial collage featuring a young man in a peaceful outdoor street setting, styled like a nostalgic 1990s film photography poster.
+
+Preserve Facial Identity: Use the uploaded reference photo to preserve the exact facial identity of the person in both photographs, including original face shape, facial proportions, eyes, eyebrows, nose, lips, jawline, hairstyle, facial hair, and natural skin texture. Do not beautify, reshape, or alter his identity.
+
+Outfit & Styling: The young man wears an oversized black-and-white horizontally striped long-sleeve polo shirt with a relaxed collar and loose-fitting light-wash baggy denim jeans. His hairstyle is naturally thick, messy, and voluminous, with soft curls.
+
+Main Composition:
+
+- Create a large, full-body black-and-white photograph of the young man as the background.
+
+- He stands casually on a quiet outdoor road, wearing the striped oversized shirt and baggy jeans.
+
+- His right arm is bent and positioned behind his head, creating a relaxed, effortless pose.
+
+- His face is turned slightly toward the right, with a calm, thoughtful expression.
+
+- The background features softly blurred trees, natural surroundings, and an empty street.
+
+- Overlay a smaller horizontal rectangular photograph across the center of the main image.
+
+- Give the smaller photograph authentic vintage postage-stamp-style perforated edges.
+
+- Inside this smaller photograph, show the same young man in a color portrait, wearing the exact same striped outfit.
+
+- He stands outdoors in warm natural sunlight, looking toward the left with a subtle, confident expression.
+
+- Use a beautiful blurred green background with trees and soft golden sunlight.
+
+- The smaller color photograph should overlap the main portrait naturally, creating a layered scrapbook-inspired editorial design.
+
+Photography & Color Grading: The background portrait should be monochrome black and white with soft film grain, subtle contrast, and nostalgic vintage tones. The central inset photograph should feature rich natural colors, warm sunlight, slightly faded film tones, and authentic analog film texture.
+
+Visual Style: 1990s vintage photography, nostalgic music album cover aesthetic, cinematic composition, analog film grain, soft natural lighting, shallow depth of field, authentic photographic details, editorial collage design, realistic shadows, and professional photography.
+
+Important: No text, no captions, no typography, no lettering, no logos, no watermarks, and no decorative text anywhere in the image. Keep the entire composition clean and visually balanced, focusing only on the photographs and the subject.
+
+Aspect Ratio: Vertical 4:5 portrait composition, high resolution, ultra-realistic photographic quality.`
+  },
+  {
+    image: 'images/16.webp',
+    title: 'Street View',
+    tags: ['Trending', 'Boys'],
+    prompt: `Create an ultra-realistic, cinematic streetwear fashion photograph of a young man standing casually outside a stylish minimalist white café or boutique storefront, captured from a slightly elevated, wide-angle Google Street View perspective.
+
+Preserve the exact facial identity of the person in the reference image, including original face shape, facial proportions, eyes, eyebrows, nose, lips, jawline, hairstyle, and natural skin texture. Do not beautify, reshape, or alter the person's identity.
+
+Give him naturally voluminous, dense black curly hair with a slightly messy texture, his head tilted downward as he casually looks toward the ground. Dress him in a vibrant Brazil national football jersey in bright golden yellow with green detailing and the number 10 on the front, layered over a white long-sleeve shirt. Pair it with extremely baggy, oversized dark indigo denim jeans and clean white sneakers.
+
+Pose him naturally in the center of the frame, standing with his feet slightly apart, shoulders relaxed, and both hands resting casually near his pockets.
+
+Environment: A beautiful modern white corner storefront with minimalist architectural details, black-framed windows, a dark entrance, decorative wall signage featuring elegant lettering and a smaller Devanagari inscription underneath. Add several lush green tropical plants arranged in rectangular terracotta planters on both sides of the entrance. Include a small exterior drainage pipe and dark stone edging along the building's base.
+
+Street View interface: Recreate the appearance of a realistic Google Maps Street View screenshot, including a large translucent white rounded search bar across the top with a colorful map pin icon, the words "Search here", a microphone icon, a visual search icon, and a circular profile picture. Add a prominent red location pin near the subject's feet and two large white navigation arrows on the gray stone-paved pavement in the foreground.
+
+Photography and composition: Full-body portrait, vertical 4:5 composition, realistic urban street photography, slightly elevated camera angle, natural overcast daylight, soft shadows, authentic concrete and stone textures, subtle cinematic color grading, exceptional fabric details, realistic skin texture, and natural environmental lighting.
+
+The final image should look like an authentic candid Google Street View capture blended with a high-end vintage streetwear fashion editorial. Ultra-photorealistic, 8K detail, sharp focus, realistic proportions, and no artificial CGI appearance.`
+  },
+  {
+    image: 'images/17.webp',
+    title: 'CCTV Crosswalk',
+    tags: ['Trending', 'Girls'],
+    prompt: `Create an ultra-realistic cinematic street-style photograph of a young man walking confidently across a pedestrian zebra crossing, captured from a high-angle, top-down surveillance camera perspective.
+
+Give him thick, naturally messy, voluminous black curly hair, a neatly trimmed appearance, and a subtle mustache. He is wearing stylish black rectangular sunglasses, an oversized black leather biker jacket, a fitted black T-shirt, dark charcoal baggy cargo jeans, and black sneakers. Add a silver chain necklace, a silver bracelet, and a wristwatch for a bold streetwear aesthetic.
+
+Pose him walking naturally toward the camera with one hand inside his jacket or trouser pocket and the other arm relaxed beside his body. His head is slightly tilted downward, giving him a mysterious, confident expression.
+
+Background: A textured grey asphalt road with large white zebra-crossing stripes, captured in a slightly grainy monochrome aesthetic.
+
+AI surveillance HUD overlay: Add futuristic neon-green security tracking graphics throughout the image, including:
+
+- A face-tracking rectangular box around his face.
+
+- Small biometric tracking squares around his body.
+
+- A top-left identification panel with a small black-and-white portrait and details such as ID, status, activity detected, social sync rate, interaction frequency, emotional output, and signal strength.
+
+- A biometric scan panel showing face, body, gait, and clothing percentages.
+
+- A top-right camera identification panel displaying pedestrian zone and GPS-style coordinates.
+
+- A bottom timestamp, AI tracking status, frame number, and zoom information.
+
+Visual style: Black-and-white CCTV surveillance aesthetic, subtle film grain, realistic shadows, sharp clothing textures, dramatic street photography, futuristic cyberpunk surveillance interface, glowing green HUD typography, high-resolution details, authentic overhead camera perspective.
+
+Aspect ratio 9:16, full-body composition, ultra-realistic photography, cinematic quality.`
+  },
+  {
+    image: 'images/18.webp',
+    title: 'Red Puffer',
+    tags: ['Trending', 'Boys'],
+    prompt: `Create an ultra-realistic, high-fashion luxury streetwear editorial photograph of a young man standing confidently against a seamless, solid, deep crimson-red studio background.
+
+Preserve the exact facial identity of the person in the reference image, including original face shape, facial proportions, eyes, nose, lips, jawline, beard, hairstyle, and natural skin texture. Do not beautify, reshape, or alter the person's identity.
+
+Give him naturally voluminous, dense black curly hair with a clean faded haircut on the sides and a neatly groomed full beard. Dress him in futuristic black wraparound rectangular sunglasses with reflective lenses and a glossy oversized cherry-red puffer jacket featuring exaggerated padded sections, a high structured collar, and a luxurious reflective finish. The jacket should have a slightly oversized silhouette with realistic fabric creases and dramatic highlights.
+
+Pose him in a stylish three-quarter side profile, facing toward the left side of the frame, with his head slightly raised and a calm, confident expression. His hands should be naturally clasped together near his waist.
+
+Use a monochromatic red color palette, with the background and jacket creating a striking tonal contrast through different shades and textures of red.
+
+Lighting should be dramatic, cinematic studio lighting with strong directional highlights reflecting off the glossy jacket, subtle shadows defining the face, and rich saturated red tones.
+
+Composition: vertical 3:4 portrait, medium-full body framing, subject positioned slightly right of center, minimalist seamless studio background, premium designer fashion campaign aesthetic.
+
+Photography style: ultra-realistic luxury fashion advertising, high-end editorial photography, sharp facial details, realistic skin texture, glossy material reflections, sophisticated color grading, professional studio photography, 8K quality.
+
+Avoid: cartoon effects, artificial skin smoothing, distorted hands, extra fingers, altered facial identity, distracting background elements, text, logos, and watermarks.`
+  },
+  {
+    image: 'images/19.webp',
+    title: 'Low Angle Chair',
+    tags: ['Trending', 'Boys'],
+    prompt: `Create an ultra-realistic, high-fashion black-and-white editorial photograph of a young man sitting confidently on a simple black metal folding chair in a minimal white photography studio.
+
+Preserve the exact facial identity of the person in the reference image, including original face shape, facial proportions, eyes, nose, lips, jawline, hairstyle, and natural skin texture. Do not beautify, reshape, or alter the person's identity.
+
+Give him naturally messy, voluminous dark hair with a slightly wild, textured appearance. He wears small, dark oval sunglasses, an oversized dark plaid button-up shirt with a relaxed open collar, loose-fitting wide-leg black trousers, and chunky black leather boots.
+
+Pose & Composition: Position him sitting deeply and casually on the chair, with his legs spread wide toward the camera. His boots appear dramatically oversized in the foreground due to the extreme low-angle perspective. His upper body leans slightly backward, shoulders relaxed, hands resting casually near his waist, and head tilted slightly upward. His expression is cool, confident, and effortlessly stylish.
+
+Camera & Perspective: Shoot from an extremely low camera angle, almost at floor level, using a wide-angle lens (approximately 20mm). Create strong perspective distortion, making the foreground boots and legs appear much larger while the upper body appears farther away. Capture the entire chair and most of his body in a vertical composition.
+
+Lighting & Background: Use a completely clean, seamless white studio background with a glossy white floor. Bright, soft studio lighting creates subtle shadows beneath the chair and shoes, with natural floor reflections.
+
+Photography Style: Pure monochrome black-and-white photography, rich deep blacks, crisp highlights, subtle film grain, sharp clothing textures, natural skin details, high contrast, premium luxury streetwear campaign aesthetic, vintage fashion magazine editorial, professionally shot, ultra-realistic photographic quality.
+
+Vertical 9:16 composition. No colors, no text, no logos, no additional people, no unnecessary background objects. Maintain realistic anatomy and natural proportions.`
+  },
+  {
+    image: 'images/20.webp',
+    title: 'Red Hillside',
+    tags: ['Trending', 'Boys'],
+    prompt: `Create an ultra-realistic, artistic black-and-white vintage editorial photograph with a minimalist indie-aesthetic design, in a vertical 9:16 composition.
+
+Depict a solitary young man standing in the middle of a vast, windswept grassy hillside overlooking a distant valley, mountains, and a small lake. Position him slightly below the center of the frame, standing sideways with his head deeply bowed, looking down toward the ground in a quiet, introspective pose. Give him naturally messy dark hair, a relaxed grey oversized hoodie, and loose black trousers. His posture should express solitude, nostalgia, and emotional reflection.
+
+Convert the entire landscape into dramatic monochrome black and white, with rich film grain, soft atmospheric haze, natural cloudy skies, detailed wild grass, and deep cinematic shadows. Create a timeless analog-film photography aesthetic.
+
+Distinctive graphic design: Place a large, vertically oriented, semi-transparent vivid red rectangular overlay in the center of the composition, extending from the upper-middle area toward the lower-middle area. The rectangle should allow the black-and-white landscape and the subject to remain subtly visible through it. Use a slightly faded, textured red tone.
+
+Inside the upper-right portion of the red rectangle, add small, elegant white serif typography arranged in three lines:
+
+"as easy as it comes"
+
+"as easy it goes"
+
+"tide/life/love"
+
+Keep the text left-aligned, underlined, and delicately spaced, resembling an experimental vintage magazine or indie music poster.
+
+Maintain generous empty sky space in the upper portion of the image. Use a slightly grainy, dreamy, melancholic atmosphere with strong visual contrast between the monochrome scenery and the striking red rectangle.
+
+Overall aesthetic: Vintage indie album cover, minimalist editorial photography, analog film texture, melancholic countryside atmosphere, conceptual graphic design, muted monochrome tones, bold red accent, artistic Tumblr-era nostalgia.
+
+Ultra-detailed, photorealistic, professional composition, vertical 9:16 aspect ratio.`
+  },
+  {
+    image: 'images/21.webp',
+    title: 'Fisheye Bathroom',
+    tags: ['Trending', 'Boys'],
+    prompt: `Create an ultra-realistic vintage 1990s-style street-fashion photograph of a young man standing casually in the doorway of a small, dimly lit bathroom, captured using an extreme fisheye lens with a dramatic circular distortion.
+
+Preserve the exact facial identity of the person in the reference image, including original face shape, facial proportions, jawline, nose, lips, eyes, and natural skin texture. Do not change or beautify the person's face.
+
+Give him naturally thick, voluminous, messy dark curly hair and a subtle mustache. He is wearing stylish black oval sunglasses, an oversized pale mint-green button-up shirt with the top buttons undone, loose black trousers, and dark shoes. Add a colorful patterned scarf draped loosely around his neck, hanging down both sides of his chest. Include a thin necklace for an effortless retro look.
+
+Pose him confidently with one arm raised and his fist resting against the upper doorframe, while his other arm remains relaxed behind his back. His body is slightly angled toward the camera, with a cool, effortless expression.
+
+Environment: A narrow vintage bathroom doorway with a partially visible toilet, patterned black-and-white floor tiles, wooden cabinetry, open shelves, and dark interior details. The surrounding room should feel authentic, slightly messy, and nostalgic.
+
+Camera & Composition: Use an extreme 8mm fisheye lens, shot from a slightly elevated close-range perspective. Create strong barrel distortion, curved doorframes, exaggerated foreground proportions, and a circular vignette around the edges. Capture the subject almost full-body in a vertical 2:3 composition.
+
+Lighting & Color Grading: Direct on-camera vintage flash mixed with dim ambient lighting. Apply a dark greenish-teal color cast, muted earthy tones, deep shadows, subtle film grain, slight motion softness, and imperfect analog exposure.
+
+Overall Aesthetic: Authentic 1990s underground fashion photography, nostalgic disposable-camera flash, raw candid energy, retro European streetwear editorial, dark moody atmosphere, and realistic analog film texture.
+
+Make the photograph look like an actual old film photograph rather than a modern digital image. Avoid artificial skin smoothing, excessive sharpening, or AI-generated facial alterations.`
+  },
+  {
+    image: 'images/22.webp',
+    title: 'Red Square Flash',
+    tags: ['Trending', 'Boys'],
+    prompt: `Add a bold, semi-transparent bright red square overlay around the subject's face and upper head. Give the square a strong red glow with a slightly washed-out, overexposed effect inside it. Keep the rest of the photograph dark, grainy, high-contrast, and naturally captured, like an old paparazzi photograph. Preserve the original facial features, pose, clothing, and background. No text, no captions, no extra graphics.`
+  },
+  {
+    image: 'images/23.webp',
+    title: 'Alley CCTV',
+    tags: ['Trending', 'Boys'],
+    prompt: `A realistic CCTV surveillance snapshot captured at 02:14 AM on October 27, 2023. A young man standing alone in a narrow urban concrete alleyway, wearing an oversized black technical waterproof hooded jacket, black baggy cargo trousers, chunky black sneakers, and a camouflage crossbody utility bag. Hood up, hands relaxed, looking directly toward the security camera with a serious neutral expression.
+
+High-angle security camera perspective looking down from a building corner. Graffiti-covered concrete walls, narrow dark alley, dim streetlamp in the background, realistic urban environment.
+
+Raw, unedited photographic appearance, authentic CCTV footage, natural skin texture, realistic clothing details, subtle camera noise, slightly distorted wide-angle lens, harsh nighttime lighting, documentary photography, no cinematic color grading, no filters, no text, no timestamp, no watermark.`
+  },
+  {
+    image: 'images/24.webp',
+    title: 'Dreamy Blur',
+    tags: ['Trending', 'Boys'],
+    prompt: `Create a cinematic, vintage-style portrait with a soft dreamy blur effect. A young man wearing a black outfit, with naturally messy dark hair, a subtle moustache and beard, sitting casually with one hand resting against his cheek and a gentle smile while looking slightly to the side.
+
+Visual effects: Apply a soft cinematic Gaussian blur, slightly diffused focus, dreamy glow, subtle film grain, faded highlights, warm sepia undertones, muted contrast, and soft light leaks. Add a delicate hazy atmosphere while keeping the face naturally recognizable and detailed.
+
+Lighting & Color Grading: Soft natural window lighting, overexposed creamy-white background, deep black shadows, faded vintage tones, warm monochrome finish, and subtle film dust particles.
+
+Photography Style: 35mm vintage film photography, shallow depth of field, soft-focus portrait, nostalgic romantic cinema aesthetic, candid photography, atmospheric background bokeh.
+
+Important: Keep the original facial features, hairstyle, pose, and natural expression unchanged. Avoid excessive sharpening, artificial skin smoothing, or an overly strong blur. Make it look like an old cinematic movie still.`
+  },
+  {
+    image: 'images/25.webp',
+    title: 'Mohit Poster',
+    tags: ['Trending', 'Boys'],
+    prompt: `A striking graphic poster featuring a young man looking upwards with a calm, serious expression. **Hairstyle:** Thick, dark, voluminous curly hair. **Beard Style:** A thin mustache and a small goatee. **Clothing:** A light-colored (white or cream) polo shirt with a small logo on the left chest. **Accessories:** Dark rectangular sunglasses with thin metal frames. **Visual Effects & Background:** The man is rendered in high-contrast black and white. The background is a deep, textured crimson red. Behind him are massive, bold cream-colored letters that spell out the word "mohit" vertically. The letters have a cutout effect, revealing the red background through their centers. A subtle halftone dot pattern is visible across the entire image, giving it a vintage or printed poster aesthetic. 8k Ultra HD colourfull Cenmatic Images Quality, HDR IOS XHDR, DLRS, Background enhanced. Aspect Ratio: 9:16, Resolution: 736 x 1308.`
+  },
+  {
+    image: 'images/26.webp',
+    title: 'MV Poster',
+    tags: ['Trending', 'Boys'],
+    prompt: `A stylish, high-impact graphic poster featuring a young man looking off to the side with a bright smile. **Hairstyle:** Thick, dark, slightly wavy hair. **Beard Style:** A light, neat mustache. **Clothing:** A plain black crew-neck t-shirt. **Visual Effects & Background:** The man is rendered in high-contrast black and white. The background is a solid, vibrant red. Behind him are massive, bold yellow letters reading "MV". A thin yellow geometric wireframe grid overlays his face and chest, adding a modern, architectural design element. **Text Elements:** At the very top, the name "MANISH VARMA" is written in small, spaced-out white letters. The overall aesthetic is modern, clean, and striking. 8k Ultra HD colourfull Cenmatic Images Quality, HDR IOS XHDR, DLRS, Background enhanced. Aspect Ratio: 3:4, Resolution: 736 x 981.`
+  },
+  {
+    image: 'images/27.webp',
+    title: 'Eternity Glitch',
+    tags: ['Trending', 'Boys'],
+    prompt: `A gritty, vintage-style portrait of a young man in profile, looking off to the side. **Hairstyle:** Thick, dark, voluminous curly hair. **Facial Features:** He is wearing futuristic, bright red rectangular glasses that look like a digital overlay. **Clothing:** A long-sleeve collared shirt with thick white and dark stripes on the sleeves and collar. **Accessories:** A watch on his wrist and rings on his fingers. He is holding a thin cord. **Visual Effects & Background:** The entire image is heavily stylized with a distressed, old film look, featuring heavy grain, high contrast, and a sepia/yellowish color palette. A floating red rectangular glitch block containing a red hand graphic is on his chest. **Text:** The text "WHO WANTS TO LIVE TILL ETERNITY" is written in a small, pixelated white font across his chest. The background features an exposed wooden roof structure with beams. 8k Ultra HD colourfull Cenmatic Images Quality, HDR IOS XHDR, DLRS, Background enhanced. Aspect Ratio: 3:4, Resolution: 736 x 981.`
+  },
+  {
+    image: 'images/28.webp',
+    title: 'Purple Sticker',
+    tags: ['Trending', 'Boys'],
+    prompt: `A stylized, high-contrast portrait of a handsome young man looking off to the side with a calm, serious expression. **Hairstyle:** Thick, dark, voluminous and curly hair with a textured, slightly messy fringe. **Beard Style:** A neat, thin dark mustache and a small goatee. **Clothing:** A dark zip-up jacket with a high collar. **Visual Design:** The portrait is rendered in a smooth, slightly illustrative black-and-white style. The subject is placed inside a large, solid lavender/purple circle. A thick, white, sticker-like outline traces the silhouette of his head and shoulders, separating him from the purple background. The outer background is plain white. 8k Ultra HD colourfull Cenmatic Images Quality, HDR IOS XHDR, DLRS, Background enhanced. Aspect Ratio: 1:1, Resolution: 736 x 736.`
+  },
+  {
+    image: 'images/29.webp',
+    title: 'Instagram Profile',
+    tags: ['Trending', 'Girls'],
+    prompt: `A creative graphic design featuring a young man overlaid on an Instagram profile interface. **Hairstyle:** Thick, dark, voluminous and wavy hair. **Clothing:** A loose, oversized white button-down shirt with sleeves rolled up, paired with dark jeans. **Action & Effects:** The young man is looking down with his hands in his pockets. He is highlighted by a bright, glowing yellow-orange outline. Large, semi-transparent white text reads "83.4T" across the center. **Background & Lighting:** The background is a dark, grain-textured screenshot of an Instagram profile (username "vmh.creations", name "HARISH.VMH") with various text details, profile picture, and interface buttons. There are glitch and neon graphic elements, including a logo on the right and a "SHORTFILM PROMO" thumbnail on the bottom left. The overall lighting is dark with vibrant neon yellow and purple accents. 8k Ultra HD colourfull Cenmatic Images Quality, HDR IOS XHDR, DLRS, Background enhanced. Aspect Ratio: 9:16, Resolution: 736 x 1308.`
+  },
+  {
+    image: 'images/30.webp',
+    title: 'Birthday Poster',
+    tags: ['Trending', 'Girls'],
+    prompt: `An Ultra HD, HDR, photorealistic vertical 2:3 aspect ratio medium-shot celebratory birthday poster lifestyle portrait photograph strictly preserving the exact visual identity, facial geometry, body proportions, and graceful, charming demeanor of the young South Asian woman from the reference image, who serves as the primary visual identity reference.
+
+The uploaded reference image is the primary identity reference. Preserve the same person's facial identity and recognizable facial geometries with maximum possible consistency. Match the reference face rather than generating a generic face. Maintain her authentic facial features: an elegant, soft oval-to-heart feminine face shape, charming natural cheek contours, delicate slender jawline, soft rounded chin, and natural fair glowing porcelain-to-wheatish skin tone with realistic fine skin texture and natural visible pores softly sculpted by professional studio portrait lighting. Head turned slightly in three-quarter profile facing toward her left while looking directly into the camera lens with a warm, enchanting, gentle closed-mouth subtle smile on naturally contoured, glossy soft rosy-pink lips. Expressive, large dark brown almond-shaped eyes catching sparkling studio catchlights beneath naturally defined, dark arched eyebrows, a straight delicate nose bridge, and a smooth radiant forehead. Her dense, glossy dark-brown to jet-black hair is styled into a neat, elegant low ponytail swept over her left shoulder in soft loose waves, with a smooth center-parted crown and a few delicate wisps framing her face.
+
+Jewelry & Accessories:
+
+- Around her neck rests a delicate, sparkling minimalist diamond / silver curved choker necklace with fine droplet accents.
+
+- In both earlobes, she wears matching elegant silver/diamond pearl drop earrings.
+
+- On her left wrist, she wears a delicate, sparkling thin silver tennis bracelet.
+
+Attire & Festive Styling:
+
+She has a graceful, slender build with well-proportioned shoulders and chest, dressed in a contemporary ethnic festive dress:
+
+- A dusty-mauve / soft lilac-purple georgette-crepe Anarkali dress / gown featuring a flattering wide V-neckline, a vertical row of decorative pearl-and-silver loop buttons running down the center bodice, sheer translucent georgette three-quarter bishop sleeves with subtle scattered crystal bead embellishments, and a matching dupatta draped gracefully over her left arm, showing realistic sheer fabric drape and soft folds.
+
+Composition, Graphic Collage & Staging:
+
+A creative graphic birthday tribute poster composition:
+
+- The woman is outlined by a subtle, glowing white sticker-style cutout border tracing her silhouette.
+
+- Background features a textured, dusty-rose / mauve painted backdrop overlaid with large, bold stacked repeating white outline typography reading "BIRTHDAY" vertically in multiple rows.
+
+- Flanking her on either side are two tilted retro Polaroid instant photo prints featuring mini portrait snapshots of the same woman smiling.
+
+- Torn paper scraps and ripped white paper textures are scattered along the edges, with a large ripped white torn-paper banner across the bottom.
+
+- Centered on the bottom torn-paper banner is clean dark typography reading "HAPPY BIRTHDAY" in small uppercase letters, directly above large, bold outlined bubble typography reading "ROWDY BABY".
+
+- Framing matches the vertical 2:3 portrait aspect ratio of the uploaded reference image, with tack-sharp optical focus on the woman, face, gentle smile, diamond necklace, sheer sleeve details, and graphic poster elements.
+
+Lighting & Optics:
+
+Warm, soft directional professional studio portrait lighting with balanced ambient fill: softly sculpting her facial contours, cheekbones, and dress fabric with smooth dimensional soft shadows, casting delicate specular highlights along her hair crest, eyes, and sparkling diamond jewelry. Captured with an 85mm portrait prime lens simulation at f/2.2 from a vertical eye-level perspective matching the reference aspect ratio, tack-sharp optical focus on the subject, authentic vibrant color reproduction contrasting soft lilac-mauve against clean white typography and dusty-rose textures, with high dynamic range photographic realism.
+
+Negative Prompt:
+
+Avoid blurry face, low resolution, low detail, distorted face, incorrect facial proportions, asymmetrical eyes, malformed eyes, deformed hands, extra fingers, missing fingers, extra limbs, duplicate body parts, unnatural anatomy, warped body, plastic skin, waxy skin, excessive smoothing, oversharpening, fake HDR, extreme saturation, washed-out colors, bad lighting, CGI human face, 3D render human face, artificial face, generic face, identity mismatch, hairstyle mismatch, male features, beard, moustache, incorrect body proportions, unwanted cropping, stretched image, compression artifacts, noise, distorted typography, warped text.`
+  },
+  {
+    image: 'images/31.webp',
+    title: 'Blue Neon',
+    tags: ['Trending', 'Boys'],
+    prompt: `A cinematic portrait of a handsome young man looking directly at the camera with a serious, calm expression. **Hairstyle:** Thick, dark, slightly curly hair with a textured fringe on the forehead. **Beard Style:** A light, neatly trimmed stubble beard and mustache with a clean jawline. **Clothing:** A loose, oversized plain white crew-neck t-shirt. **Background & Lighting:** A deep blue studio background with dramatic, vibrant blue neon lighting illuminating his face and shirt. There are artistic motion blur and light leak effects around the edges and one side of his face. 8k Ultra HD colourfull Cenmatic Images Quality, HDR IOS XHDR, DLRS, Background enhanced. Aspect Ratio: 3:4, Resolution: 736 x 981.`
+  },
+  {
+    image: 'images/32.webp',
+    title: 'Pop Art Yellow',
+    tags: ['Trending', 'Boys'],
+    prompt: `An Ultra HD, HDR, graphic pop-art illustration and stylized photographic square 1:1 portrait strictly preserving the visual identity, facial geometry, head shape, and relaxed street-style demeanor of the young man from the reference image, who serves as the primary visual identity reference.
+
+The uploaded reference image is the primary identity reference. Preserve the same person's recognizable facial identity, head structure, and silhouette with maximum consistency. Maintain his authentic physical features: an angular, youthful masculine face shape, defined jawline, and natural features rendered in a bold retro comic book halftone dot / Ben-Day dot monochrome screentone aesthetic. Head tilted slightly downward and turned in three-quarter profile facing toward his left. Wearing classic dark sunglasses with rounded/oval black lenses and a minimalist frame resting comfortably over his nose bridge. Beneath the dark lenses, his facial structure and subtle, composed, neutral-to-gentle mouth expression are visible through graphic halftone shading. Thick, voluminous wavy-textured dark hair styled with natural messy volume and textured fringe crowning his head.
+
+Attire & Graphic Styling:
+
+He is dressed in a relaxed, casual streetwear outfit:
+
+- A loose, oversized short-sleeve crewneck t-shirt in white, featuring graphic horizontal textured stripes running across the upper chest in a layered linear pattern.
+
+- The entire subject is rendered in high-contrast black-and-white comic book halftone printing texture, using variable-sized dot patterns to create photographic depth, shadows, highlights, and volume.
+
+Cut-Out Sticker Effect & Graphic Composition:
+
+- The entire cutout silhouette of the man—including his hair, sunglasses, face, and shirt—is framed by a thick, crisp, die-cut solid white sticker border / paper cut-out outline with smooth rounded contours.
+
+- The background is a clean, flat, minimalist, seamless solid canary-yellow / vibrant mustard-yellow canvas with zero clutter or gradients, providing extreme contrast against the black-and-white sticker cutout.
+
+- Framing matches the square 1:1 aspect ratio of the uploaded reference image, centered dynamically with tack-sharp vector-sharp edges on the white contour sticker outline and crisp dot-matrix screen textures.
+
+Lighting & Graphic Optics:
+
+High-contrast stylized graphic lighting simulating vintage newspaper print and pop-art silkscreen printing: stark white highlights contrasted with dense black stippled halftone shadows sculpting his jaw, hair volume, and t-shirt folds. Striking visual contrast between deep monochrome black-and-white ink and the brilliant solid yellow backdrop, with high-definition graphic clarity and clean edges.
+
+Negative Prompt:
+
+Avoid photorealistic full-color skin, colorized human face, blurry edges, low resolution, low detail, distorted face, incorrect facial proportions, asymmetrical sunglasses, deformed hands, missing sticker outline, realistic photographic background, complex background, gradient background, noise, compression artifacts, waxy textures, 3D CGI render, generic face, identity mismatch, hairstyle mismatch, missing halftone texture.`
+  },
+  {
+    image: 'images/33.webp',
+    title: 'Hilltop Black White',
+    tags: ['Trending', 'Boys'],
+    prompt: `An Ultra HD, HDR, photorealistic vertical medium-shot monochrome black-and-white outdoor candid lifestyle portrait photograph strictly preserving the exact visual identity, facial geometry, body proportions, and contemplative demeanor of the young South Asian man from the reference image, who serves as the primary visual identity reference.
+
+The uploaded reference image is the primary identity reference. Preserve the same person's facial identity and recognizable facial geometries with maximum possible consistency. Match the reference face rather than generating a generic face. Maintain his authentic facial features: an angular, structured masculine face shape, defined cheek contours, clean sharp chiseled jawline, rounded chin, and natural skin tone rendered in rich monochromatic grayscale with realistic fine skin texture and natural visible pores softly sculpted by diffused natural daylight. Head held high and turned fully in profile facing toward his right, looking upward and into the open sky with a calm, stoic, contemplative closed-mouth expression on naturally contoured lips. Dark almond-shaped eye visible in profile beneath a naturally defined dark eyebrow, a straight prominent nose bridge, and smooth upper cheek. He features a neatly groomed, short dark boxed stubble beard along his jawline and chin with neatly trimmed defined edges, connecting cleanly to a styled, trimmed dark mustache along his upper lip. His signature thick, dense jet-black hair has immense natural volume and tight curly texture, styled in a voluminous textured modern curly crop crowning his head with short tapered sides and back, and natural defined curly crests on top. In his visible left earlobe, he wears a minimalist small silver hoop earring.
+
+Attire & Styling:
+
+He has a lean, athletic build with well-proportioned broad shoulders, chest, and arms, dressed in a relaxed, casual outfit:
+
+- A light-toned, relaxed-fit long-sleeve button-down shirt featuring fine vertical pinstripes, an unbuttoned casual collar, and long sleeves casually cuffed and rolled up loosely around his elbows and forearms, showing natural soft fabric folds and creases.
+
+- High-waisted, straight-fit dark denim jeans with visible back pocket embroidery stitching and belt loops, with the striped shirt partially tucked or hanging casually over the waistband.
+
+Pose & Staging:
+
+Captured from a dramatic low-angle perspective looking upward in profile:
+
+- Body angled in profile facing toward his right with his head tilted slightly upward toward the open horizon.
+
+- His left arm hangs naturally and relaxed at his side with fingers gently bent.
+
+- Posed standing tall against an expansive sky, radiating quiet introspection, freedom, masculine poise, and cinematic wanderlust.
+
+Setting & Environment:
+
+A scenic, open-air high-altitude mountain peak or hilltop overlook:
+
+- In the lower left corner, rugged mountain rocks and dry wild foliage/shrubs frame the subject naturally.
+
+- The background opens into an expansive, airy overcast or bright hazy sky, with distant undulating mountain ridges and hills softly visible along the far lower horizon.
+
+- The background dissolves into a soft, creamy photographic depth of field with gentle tonal fall-off.
+
+- Framing matches the vertical elongated mobile portrait aspect ratio of the uploaded reference image, with tack-sharp optical focus on the man, profile, facial hair, curly hair texture, silver hoop earring, pinstripe shirt fabric weave, and denim texture.
+
+Lighting & Optics:
+
+Monochrome black-and-white fine-art photography featuring rich, smooth tonal gradients, deep blacks, velvety mid-tones, and clean, luminous whites. Soft, natural diffused daytime ambient daylight illuminating his profile, casting gentle highlights along his nose bridge, cheek, ear, and curly hair crest, balanced by natural dimensional soft shadows defining his jawline and shirt drapery. Captured with an 85mm portrait prime lens simulation at f/2.2 from a vertical low-angle perspective matching the reference aspect ratio, tack-sharp optical focus on the subject, high dynamic range photographic realism, and fine film-like clarity.
+
+Negative Prompt:
+
+Avoid color, colorized image, blurry face, low resolution, low detail, distorted face, incorrect facial proportions, asymmetrical features, deformed hands, extra fingers, missing fingers, extra limbs, duplicate body parts, unnatural anatomy, warped body, plastic skin, waxy skin, excessive smoothing, oversharpening, fake HDR, bad lighting, CGI human face, 3D render human face, artificial face, generic face, identity mismatch, hairstyle mismatch, clean-shaven, missing beard, incorrect body proportions, unwanted cropping, stretched image, compression artifacts, noise, warped pinstripes.`
+  },
+  {
+    image: 'images/34.webp',
+    title: 'Brick Wall White',
+    tags: ['Trending', 'Boys'],
+    prompt: `An Ultra HD, HDR, photorealistic vertical full-length candid lifestyle street portrait photograph strictly preserving the exact visual identity, facial geometry, body proportions, and calm, stylish demeanor of the young South Asian man from the reference image, who serves as the primary visual identity reference.
+
+The uploaded reference image is the primary identity reference. Preserve the same person's facial identity and recognizable facial geometries with maximum possible consistency. Match the reference face rather than generating a generic face. Maintain his authentic facial features: an angular, structured oval-to-heart masculine face shape, defined cheek contours, clean sharp jawline, rounded chin, and natural fair-to-wheatish glowing skin tone with realistic fine skin texture and natural visible pores softly illuminated by warm direct sunlight and cool architectural ambient shadow. Looking up toward the camera lens from a distinct high-angle perspective through stylish vintage round dark sunglasses with thin metallic frames and dark-tinted lenses resting comfortably across his straight nose bridge. He maintains a calm, composed, stoic closed-mouth neutral-to-gentle expression on naturally contoured lips, with clean-shaven smooth jawline and cheeks. His thick, dense jet-black hair has immense natural volume and wavy-curly texture, styled in a messy textured fringe and wavy crop with loose layered crests and curls falling naturally forward over his forehead and crown, paired with neatly tapered sides. On his left wrist, he wears a modern black sports watch with a dark silicone strap.
+
+He has a lean, athletic build with well-proportioned broad shoulders, chest, and toned arms, dressed in an effortless monochrome all-white casual outfit: an untucked, relaxed-fit pure-white cotton long-sleeve button-down shirt featuring an open point collar unbuttoned casually down the chest in a relaxed V-neck plunge, with sleeves neatly rolled to three-quarter length at his forearms showing natural fabric drape and soft folds. He pairs it with relaxed-fit, straight-leg matching pure-white trousers or chinos with clean natural creases falling over his footwear. On his feet, he wears classic white low-top retro lifestyle sneakers with subtle light-grey and black accent stripes, white laces, and flat rubber soles.
+
+Pose & Staging:
+
+Captured from a high-angle overhead perspective looking down into a rustic, secluded corner:
+
+- Standing full-length, leaning his back and hips comfortably against the corner of a textured raw brick wall.
+
+- Both arms are tucked casually behind his back.
+
+- Head tilted slightly upward to face the high camera angle with quiet confidence, radiating youthful street elegance, relaxed poise, and authentic urban charm.
+
+Setting & Environment:
+
+A rustic architectural rooftop landing, stairwell nook, or unfinished building corner:
+
+- Positioned in a tight alcove between weathered red-brick masonry walls and aged, exposed concrete mortar plaster.
+
+- On the left, sunlight pours in from an open top opening or low wall edge, creating a soft sun flare at the top-left rim.
+
+- In the lower foreground, dark concrete stone stairs descend into deep shadow.
+
+- Framing matches the vertical 3:4 portrait aspect ratio of the uploaded reference image, with tack-sharp optical focus on the man, face, round sunglasses, hair texture, white shirt weave, trousers, and sneakers against the rugged brick textures.
+
+Lighting & Optics:
+
+High-contrast natural sunlight streaming from the upper left, casting luminous warm sunlit rim highlights along his hair crest, sunglasses frame, left shoulder, and white shirt folds, accompanied by a natural soft lens flare at the upper edge, balanced by cool, authentic ambient fill and dimensional soft shadows defining his physique and the rustic brick wall textures. Captured with an 85mm portrait prime lens simulation at f/2.2 from a vertical high-angle looking-down perspective matching the reference aspect ratio, tack-sharp optical focus on the subject, face, clothing textures, and sneakers, natural architectural depth of field, and high dynamic range photographic realism.
+
+Negative Prompt:
+
+Avoid blurry face, low resolution, low detail, distorted face, incorrect facial proportions, asymmetrical eyes, malformed eyes, deformed hands, extra fingers, missing fingers, extra limbs, duplicate body parts, unnatural anatomy, warped body, plastic skin, waxy skin, excessive smoothing, oversharpening, fake HDR, extreme saturation, washed-out colors, bad lighting, CGI, 3D render, cartoon, anime, artificial face, generic face, identity mismatch, hairstyle mismatch, heavy beard, moustache, incorrect body proportions, unwanted cropping, stretched image, compression artifacts, noise, warped sunglasses, distorted sneakers.`
+  },
+  {
+    image: 'images/35.webp',
+    title: 'Sea Playlist',
+    tags: ['Trending', 'Boys'],
+    prompt: `An Ultra HD, HDR, photorealistic vertical 3:4 aspect ratio conceptual outdoor candid lifestyle portrait photography composition strictly preserving the exact visual identity, head geometry, body proportions, and brooding, melancholic demeanor of the young South Asian man from the reference image, who serves as the primary visual identity reference.
+
+The uploaded reference image is the primary identity reference. Preserve the same person's visual identity, body build, and recognizable geometry with maximum possible consistency. Match the reference face and features rather than generating a generic person. Maintain his authentic features: a lean, athletic masculine build, broad shoulders, well-proportioned neck, and natural fair-to-wheatish skin tone. Seen from behind in a sharp back/three-quarter profile view facing away from the camera toward the open sea, showing his defined cheek contour, clean jawline, and right ear. His signature thick, dense jet-black hair has immense natural wavy-curly volume, styled in a messy textured crop / wavy mop with volume across the crown and neatly tapered neckline.
+
+Attire, Footwear & Accessories:
+
+- An oversized, relaxed-fit baby-blue / pastel sky-blue short-sleeve button-down cotton shirt with an open spread collar, worn over a white inner undershirt, displaying realistic breathable fabric drape and soft folds. On the right chest is a tiny embroidered red graphic emblem.
+
+- Paired with loose-fitting, relaxed wide-leg light-wash light-blue baggy denim jeans showing realistic denim twill texture, natural creases, and loose hem drape falling over his footwear.
+
+- On his feet, he wears clean low-top white sneakers with white soles, standing firmly on the damp sand.
+
+- Slung over both shoulders is a classic black canvas backpack with padded straps.
+
+- On his right wrist, he wears a minimalist black watch with a round dial and dark strap.
+
+Pose & Staging:
+
+Captured in an authentic, contemplative candid outdoor standing posture:
+
+- Standing casually on a dark, wet sandy shoreline facing the vast open water with his body angled toward the horizon.
+
+- Arms resting naturally at his sides.
+
+- Radiating deep introspection, quiet longing, wanderlust nostalgia, and emotional cinematic depth.
+
+Graphic Overlay & Surreal Atmosphere:
+
+- Left Half: A stylized semi-transparent vertical music tracklist / audio playlist UI overlay in dark mode, showing a scrollable list of romantic acoustic songs with square album cover thumbnails, song titles, artists, reels count, and timestamps in clean, crisp white typography.
+
+- Upper Right Sky: Faded into the soft, misty white clouds above the sea horizon is a faint, ethereal, translucent double-exposure of a pair of captivating, expressive feminine dark almond-shaped eyes adorned with delicate kohl and a tiny subtle black bindi, gazing softly downward as a lingering memory.
+
+Setting & Environment:
+
+A tranquil, melancholic coastal ocean beach or vast misty lakeside on an overcast day:
+
+- Standing on coarse, dark grey-black wet beach sand.
+
+- Calm, dark-blue rippling ocean waves gently lap against the shore in the midground, with a tiny, distant blurred fishing boat silhouette floating on the calm horizon under a hazy, overcast slate-grey and white sky.
+
+- Framing matches the vertical 3:4 portrait aspect ratio of the uploaded reference image, with tack-sharp optical focus on the young man, his pastel-blue shirt, wide jeans, backpack, and the wet shoreline.
+
+Lighting & Optics:
+
+Moody, diffused outdoor overcast daylight with soft, natural ambient fill: gentle overhead daylight softly illuminating his head, shoulders, and linen shirt with smooth dimensional soft shadows, balanced by glossy specular reflections off the damp beach sand. Captured with an 85mm prime lens simulation at f/2.2 from a vertical eye-level perspective matching the reference aspect ratio, tack-sharp optical clarity on the subject, authentic muted cinematic color tones contrasting light sky blue and crisp white against deep oceanic blues and dark sand, with high dynamic range photographic realism.
+
+Negative Prompt:
+
+Avoid blurry subject, low resolution, low detail, distorted face, incorrect facial proportions, asymmetrical features, deformed hands, extra fingers, missing fingers, extra limbs, duplicate body parts, unnatural anatomy, warped body, plastic skin, waxy skin, excessive smoothing, oversharpening, fake HDR, extreme saturation, washed-out colors, bad lighting, CGI human, 3D render human, artificial face, generic face, identity mismatch, hairstyle mismatch, clean-shaven confusion, sunny bright sky, incorrect body proportions, unwanted cropping, stretched image, compression artifacts, noise, distorted UI typography.`
   }
 ];
