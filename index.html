@@ -113,19 +113,27 @@ footer h2{font-size:1.1rem;letter-spacing:-.02em;margin:0 0 10px;color:var(--fg)
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
+<script>window.addEventListener("error",function(e){if(e.filename&&/prompts\.js/.test(e.filename)){window.__promptsErr="line "+e.lineno+": "+e.message}});</script>
 <script src="prompts.js"></script>
 <script>
 (()=>{
 const $=id=>document.getElementById(id);
+const canon={};
 const items=(window.CREATZO_PROMPTS||[])
-  .map((o,i)=>({
-    id:i,
-    t:o.title||(o.image||'').split('/').pop().replace(/\.[^.]+$/,''),
-    tag:o.tag||'General',
-    p:(o.prompt||'').trim(),
-    src:o.image
-  }))
+  .map((o,i)=>{
+    const raw=Array.isArray(o.tags)?o.tags:(o.tags?[o.tags]:(o.tag?[o.tag]:[]));
+    const tags=[...new Set(raw.map(t=>String(t).trim()).filter(Boolean).map(t=>{const k=t.toLowerCase();return canon[k]||(canon[k]=t)}))];
+    if(!tags.length)tags.push('General');
+    return {
+      id:i,
+      t:o.title||(o.image||'').split('/').pop().replace(/\.[^.]+$/,''),
+      tags,
+      p:(o.prompt||'').trim(),
+      src:o.image
+    };
+  })
   .filter(o=>o.p&&o.src);
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 
 let q='',tag='All',counts={};
 try{counts=JSON.parse(localStorage.getItem('creatzo:copies')||'{}')||{}}catch(e){counts={}}
@@ -135,15 +143,19 @@ const total=()=>Object.values(counts).reduce((a,b)=>a+b,0);
 function showLast(o){$('lastT').textContent=o.t;$('lastP').textContent=o.p}
 
 function render(){
+  if(!Array.isArray(window.CREATZO_PROMPTS)){
+    $('empty').textContent=window.__promptsErr?('prompts.js me galti hai ('+window.__promptsErr+'). Us line ke aas-paas quote, backtick ya comma check karo.'):'prompts.js load nahi hui ya usme typo hai. Check karo ki prompts.js repo ke root me index.html ke saath upload hai (same folder), uska naam bilkul prompts.js hai, aur usme quote, backtick ya comma ki galti nahi hai.';
+    $('empty').hidden=false;$('shown').textContent='';$('grid').innerHTML='';return;
+  }
   const ks=q.toLowerCase().split(/\s+/).filter(Boolean);
-  const list=items.filter(o=>(tag==='All'||o.tag===tag)&&ks.every(w=>(o.t+' '+o.tag+' '+o.p).toLowerCase().includes(w)));
-  $('grid').innerHTML=list.map(o=>`<article class="card" data-id="${o.id}"><button class="shot" type="button" aria-label="Copy prompt for ${o.t}"><img src="${o.src}" alt="${o.t}, ${o.tag.toLowerCase()} black and white artwork" width="400" height="400" loading="lazy"><span class="tip">Click to copy prompt</span></button><div class="meta"><h3>${o.t}</h3><span class="cnt">${word(counts[o.id]||0)}</span></div><p class="pr">${o.p}</p></article>`).join('');
+  const list=items.filter(o=>(tag==='All'||o.tags.includes(tag))&&ks.every(w=>(o.t+' '+o.tags.join(' ')+' '+o.p).toLowerCase().includes(w)));
+  $('grid').innerHTML=list.map(o=>`<article class="card" data-id="${o.id}"><button class="shot" type="button" aria-label="Copy prompt for ${esc(o.t)}"><img src="${esc(o.src)}" alt="${esc(o.t)}, ${esc(o.tags.join(', '))} AI image prompt" width="400" height="400" loading="lazy"><span class="tip">Click to copy prompt</span></button><div class="meta"><h3>${esc(o.t)}</h3><span class="cnt">${word(counts[o.id]||0)}</span></div><p class="pr">${esc(o.p)}</p></article>`).join('');
   $('empty').hidden=list.length>0;
   $('shown').textContent=`Showing ${list.length} of ${items.length} prompts`;
 }
 function chips(){
-  const tags=['All',...new Set(items.map(o=>o.tag))];
-  $('chips').innerHTML=tags.map(t=>`<button class="chip" type="button" aria-pressed="${t===tag}" data-t="${t}">${t}</button>`).join('');
+  const tags=['All',...new Set(items.flatMap(o=>o.tags))];
+  $('chips').innerHTML=tags.map(t=>`<button class="chip" type="button" aria-pressed="${t===tag}" data-t="${esc(t)}">${esc(t)}</button>`).join('');
 }
 async function copy(text){
   try{await navigator.clipboard.writeText(text);return true}catch(e){
