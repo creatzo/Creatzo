@@ -78,9 +78,36 @@ Important: Maintain realistic human proportions, natural facial details, and an 
   },
   {
     image: 'images/New Project (5).png',
-    title: 'New Project (5)',
-    tag: 'New Project',
-    prompt: ``   // <-- yahan is image ka prompt paste karo
+    title: 'Black Scale'
+    tag: 'Black','Trending','19s'
+    prompt: Create an ultra-realistic black-and-white vintage police mugshot-style portrait in a vertical 9:16 composition.
+
+Subject & Appearance:
+A young man with medium-length, thick, naturally wavy black hair, parted loosely in the middle with strands falling around his forehead. He has a sharp jawline, natural facial features, and an intense, serious expression. He is looking directly into the camera with a confident, emotionless gaze.
+
+Clothing & Accessories:
+A black, slightly oversized button-up shirt with the top buttons undone, revealing a subtle silver chain necklace. Minimal styling with a dark, understated aesthetic.
+
+Background:
+A classic police booking height-measurement wall featuring evenly spaced horizontal black measurement lines on a light grey background. Add subtle cropped measurement markings along the right edge to create an authentic mugshot-room appearance.
+
+Pose & Composition:
+Chest-up frontal portrait, subject standing upright and facing directly toward the camera. Head centered in the frame, shoulders relaxed, eyes looking straight into the lens. The measurement lines should remain visible behind the head and shoulders.
+
+Photography Style:
+Authentic 1990s analog police mugshot photography, direct frontal camera flash, harsh yet natural lighting, strong contrast, deep shadows, slightly imperfect exposure, and realistic facial texture.
+
+Black & White Grading:
+Pure monochrome grayscale, rich charcoal blacks, bright grey highlights, detailed midtones, high contrast, heavy analog film grain, visible photographic noise, subtle dust and scratches.
+
+Atmosphere:
+Dark, mysterious, rebellious, underground editorial aesthetic, vintage criminal-record photography, nostalgic 90s film texture.
+
+Camera Quality:
+35mm film camera appearance, direct flash photography, slightly soft focus, natural imperfections, realistic skin pores, detailed hair strands, authentic film texture.
+
+Important Requirements:
+Photorealistic output, natural human anatomy, realistic facial proportions, accurate hand-free chest-up composition, clean measurement lines, no artificial beauty filters, no color, no modern backgrounds, no additional text, no logos, and no watermarks.'// <-- yahan is image ka prompt paste karo
   },
   {
     image: 'images/6.png',
