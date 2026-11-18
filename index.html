@@ -118,6 +118,11 @@ footer h2{font-size:1.1rem;letter-spacing:-.02em;margin:0 0 10px;color:var(--fg)
 <script>
 (()=>{
 const $=id=>document.getElementById(id);
+/* ---- GLOBAL COPY COUNTER (sab visitors ka shared count) ----
+   Free online counter service (Abacus). Har image ka apna counter hota hai.
+   NS = aapke project ka unique naam. Isse mat badlo, warna count 0 se shuru ho jayega. */
+const API='https://abacus.jasoncameron.dev',NS='creatzo-pushpam';
+const slug=s=>String(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
 const canon={};
 const items=(window.CREATZO_PROMPTS||[])
   .map((o,i)=>{
@@ -129,17 +134,41 @@ const items=(window.CREATZO_PROMPTS||[])
       t:o.title||(o.image||'').split('/').pop().replace(/\.[^.]+$/,''),
       tags,
       p:(o.prompt||'').trim(),
-      src:o.image
+      src:o.image,
+      k:slug(o.key||(o.image||'').split('/').pop().replace(/\.[^.]+$/,''))||('item-'+i)
     };
   })
   .filter(o=>o.p&&o.src);
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 
 let q='',tag='All',counts={};
-try{counts=JSON.parse(localStorage.getItem('creatzo:copies')||'{}')||{}}catch(e){counts={}}
-const save=()=>{try{localStorage.setItem('creatzo:copies',JSON.stringify(counts))}catch(e){}};
+try{counts=JSON.parse(localStorage.getItem('creatzo:global')||'{}')||{}}catch(e){counts={}}
+const save=()=>{try{localStorage.setItem('creatzo:global',JSON.stringify(counts))}catch(e){}};
 const word=n=>n+(n===1?' copy':' copies');
-const total=()=>Object.values(counts).reduce((a,b)=>a+b,0);
+const total=()=>items.reduce((a,o)=>a+(counts[o.k]||0),0);
+const byId=id=>items.find(x=>x.id===+id);
+function paint(o){
+  document.querySelectorAll('.card[data-id="'+o.id+'"] .cnt').forEach(el=>{el.textContent=word(counts[o.k]||0)});
+  $('total2').textContent=total();
+}
+async function api(path){
+  const r=await fetch(API+path,{cache:'no-store'});
+  if(r.status===404)return 0;
+  if(!r.ok)throw new Error('counter '+r.status);
+  const d=await r.json();
+  return Math.max(0,Number(d.value)||0);
+}
+async function sync(){
+  const queue=[...items];
+  const worker=async()=>{
+    while(queue.length){
+      const o=queue.shift();
+      try{counts[o.k]=await api('/get/'+NS+'/'+o.k);paint(o)}catch(e){}
+    }
+  };
+  await Promise.all([worker(),worker(),worker()]);
+  save();
+}
 function showLast(o){$('lastT').textContent=o.t;$('lastP').textContent=o.p}
 
 function render(){
@@ -149,7 +178,7 @@ function render(){
   }
   const ks=q.toLowerCase().split(/\s+/).filter(Boolean);
   const list=items.filter(o=>(tag==='All'||o.tags.includes(tag))&&ks.every(w=>(o.t+' '+o.tags.join(' ')+' '+o.p).toLowerCase().includes(w)));
-  $('grid').innerHTML=list.map(o=>`<article class="card" data-id="${o.id}"><button class="shot" type="button" aria-label="Copy prompt for ${esc(o.t)}"><img src="${esc(o.src)}" alt="${esc(o.t)}, ${esc(o.tags.join(', '))} AI image prompt" width="400" height="400" loading="lazy"><span class="tip">Click to copy prompt</span></button><div class="meta"><h3>${esc(o.t)}</h3><span class="cnt">${word(counts[o.id]||0)}</span></div><p class="pr">${esc(o.p)}</p></article>`).join('');
+  $('grid').innerHTML=list.map(o=>`<article class="card" data-id="${o.id}"><button class="shot" type="button" aria-label="Copy prompt for ${esc(o.t)}"><img src="${esc(o.src)}" alt="${esc(o.t)}, ${esc(o.tags.join(', '))} AI image prompt" width="400" height="400" loading="lazy"><span class="tip">Click to copy prompt</span></button><div class="meta"><h3>${esc(o.t)}</h3><span class="cnt">${word(counts[o.k]||0)}</span></div><p class="pr">${esc(o.p)}</p></article>`).join('');
   $('empty').hidden=list.length>0;
   $('shown').textContent=`Showing ${list.length} of ${items.length} prompts`;
 }
@@ -167,11 +196,10 @@ function toast(m){const t=$('toast');t.textContent=m;t.classList.add('show');cle
 
 $('grid').addEventListener('click',async e=>{
   const b=e.target.closest('.shot');if(!b)return;
-  const card=b.closest('.card'),o=items[+card.dataset.id];
+  const card=b.closest('.card'),o=byId(card.dataset.id);if(!o)return;
   if(!await copy(o.p)){toast('Copy failed. Select the prompt text and copy it.');return}
-  counts[o.id]=(counts[o.id]||0)+1;save();
-  card.querySelector('.cnt').textContent=word(counts[o.id]);
-  $('total2').textContent=total();
+  counts[o.k]=(counts[o.k]||0)+1;save();paint(o);
+  api('/hit/'+NS+'/'+o.k).then(v=>{counts[o.k]=v;save();paint(o)}).catch(()=>{});
   showLast(o);try{localStorage.setItem('creatzo:last',o.id)}catch(e){}
   const tip=card.querySelector('.tip');tip.textContent='Copied ✓';card.classList.add('done');
   setTimeout(()=>{card.classList.remove('done');tip.textContent='Click to copy prompt'},1400);
@@ -181,8 +209,8 @@ $('q').addEventListener('input',e=>{q=e.target.value;render()});
 $('chips').addEventListener('click',e=>{const c=e.target.closest('.chip');if(!c)return;tag=c.dataset.t;chips();render()});
 
 $('total2').textContent=total();
-try{const v=localStorage.getItem('creatzo:last');if(v!==null&&items[+v])showLast(items[+v])}catch(e){}
-chips();render();
+try{const v=localStorage.getItem('creatzo:last');if(v!==null&&byId(v))showLast(byId(v))}catch(e){}
+chips();render();sync();
 })();
 </script>
 </body>
