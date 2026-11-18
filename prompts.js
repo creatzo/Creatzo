@@ -67,10 +67,34 @@ Important: Preserve realistic human anatomy, natural hand and finger proportions
     prompt: ``   // <-- yahan is image ka prompt paste karo
   },
   {
-    image: 'images/New Project (6).png',
-    title: 'New Project (6)',
-    tag: 'New Project',
-    prompt: ``   // <-- yahan is image ka prompt paste karo
+    image: 'images/6.png',
+    title: 'Filmy Grains',
+    tag: 'Trending',
+    prompt:'Create an ultra-realistic vintage 35mm film photograph in a vertical 2:3 portrait composition.
+
+Subject & Pose:
+A young man with thick, naturally curly black hair, wearing a relaxed black long-sleeve Henley shirt, loose-fit faded dark grey jeans, and a wristwatch. He is sitting casually on a dark upholstered armchair with a relaxed, confident posture. His upper body leans slightly backward, one arm stretched along the armrest and the other resting naturally beside him. His legs are crossed casually. His head is turned slightly toward the right, looking away from the camera with a calm, thoughtful, effortless expression.
+
+Environment & Background:
+An elegant indoor setting with vintage botanical wallpaper featuring large tropical leaves, flowers, and white swan illustrations. A dark-framed wall mirror is positioned behind the subject. On the right side, include a classic white table lamp with a fabric lampshade placed on a decorative side table. The environment should feel warm, nostalgic, sophisticated, and naturally lived-in.
+
+Photography & Lighting:
+Authentic analog 35mm film photography, candid editorial portrait, slightly soft focus, natural indoor ambient lighting, subtle flash photography appearance, gentle shadows, realistic skin texture, and imperfect film characteristics.
+
+Color Grading:
+Muted monochrome with a subtle cool sage-green and grey tint. Low saturation, soft highlights, deep charcoal blacks, faded midtones, and slightly washed-out vintage contrast. Add authentic film grain, fine noise, subtle dust, and analog texture.
+
+Camera & Composition:
+Full-body seated portrait, eye-level camera angle, natural perspective, subject positioned slightly left of center. Capture the entire relaxed sitting pose, including crossed legs and surrounding interior details.
+
+Vintage Timestamp:
+Add a small yellow digital camera timestamp near the bottom-left corner, resembling an old 1990s disposable film camera date imprint.
+
+Overall Aesthetic:
+1990s vintage film photography, nostalgic Tumblr aesthetic, Pinterest editorial portrait, quiet luxury, candid lifestyle photography, authentic analog imperfections.
+
+Important:
+Maintain realistic anatomy, natural hand proportions, authentic facial features, realistic clothing folds, and believable lighting. Avoid modern cinematic color grading, artificial skin smoothing, excessive sharpness, oversaturated colors, or overly polished AI-generated appearance.'  // <-- yahan is image ka prompt paste karo
   },
   {
     image: 'images/New Project (7).png',
