@@ -114,9 +114,21 @@ Maintain realistic anatomy, natural hand proportions, authentic facial features,
   },
   {
     image: 'images/New Project (7).png',
-    title: 'New Project (7)',
-    tag: 'New Project',
-    prompt: ``   // <-- yahan is image ka prompt paste karo
+    title: 'Gredient Blue',
+    tag: 'Trending','Black','Gredients'
+    prompt: Create an ultra-realistic cinematic portrait of a young Indian man standing confidently in a dark, atmospheric studio, captured from the chest up.
+
+Appearance: Thick, voluminous, messy textured black hair styled upwards with a natural side-swept look. His face is completely hidden in deep shadow, creating a mysterious and dramatic silhouette. Natural facial structure, stylish hairstyle, confident posture.
+
+Outfit: Plain black fitted T-shirt, creating a seamless dark silhouette.
+
+Lighting & Background: Beautiful dual-tone cinematic lighting with intense electric blue and deep purple light on the left side, soft cyan glow behind the neck, and bright white-purple backlighting on the right side. Dark gradient studio background with atmospheric fog and diffused light.
+
+Photography: Professional cinematic photography, dramatic backlighting, high contrast, soft glow, subtle haze, shallow depth of field, moody aesthetic, ultra-detailed hair texture, realistic shadows, 4K quality.
+
+Composition: Vertical 9:16 portrait, centered subject, chest-up framing, mysterious Instagram DP aesthetic.
+
+Keep the face completely dark and unrecognizable. Do not add text, logos, or watermarks.'// <-- yahan is image ka prompt paste karo
   },
 
   // ---- Naya prompt: is template ko copy karke upar add karo ----
