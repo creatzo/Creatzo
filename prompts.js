@@ -15,11 +15,35 @@
 //   - Ek image ke kai tags ho sakte hain: tags: ['Trending', 'Black']
 //   - `prompt` khaali hai to wo image gallery me nahi dikhegi.
 //   - Naye blocks hamesha END me add karo (copy counter order se juda hai).
+//   - IMAGE SIZE AUTO hai: image jis size/ratio ki hogi (square, lambi, chaudi)
+//     website par bilkul wahi dikhegi, crop nahi hogi. Alag se width/height likhne ki zaroorat nahi.
 // ============================================================
+
+// ------------------------------------------------------------
+//  WATERMARK (AUTO) – har image par apne aap lagta hai
+//  Watermark file: images/watermark.png (transparent PNG)
+//  Ye sirf website par image ke upar dikhta hai, original image file
+//  ko change nahi karta. Naye image par kuch likhne ki zaroorat nahi,
+//  watermark apne aap aa jayega.
+//   - Kisi image par nahi chahiye? Uske block me:  watermark: false,
+//   - Sab jagah band karna ho:  enabled: false
+//   - Purane images (jinme watermark pehle se bana hai) par watermark: false
+//     laga hua hai, taaki double na dikhe.
+// ------------------------------------------------------------
+window.CREATZO_WATERMARK = {
+  enabled: true,
+  src: 'images/watermark.png',
+  position: 'top-left',   // 'top-left' | 'top-right' | 'bottom-left' | 'bottom-right'
+  size: 15.5,             // watermark ki chaudai (image width ka %)
+  x: 7.3,                 // kinare se doori (image width ka %)
+  y: 3.5,                 // upar/neeche se doori (image width ka %)
+  opacity: 1              // 0 se 1 (1 = poora dikhe)
+};
 
 window.CREATZO_PROMPTS = [
   {
     image: 'images/Red Lighting Aesthetic.png',
+    watermark: false, // is image me watermark pehle se bana hua hai (dobara mat lagao)
     title: 'Red Lighting Aesthetic',
     tags: ['Portrait'],
     prompt: `Ultra-Realistic Cinematic Portrait – Red Lighting Aesthetic
@@ -52,6 +76,7 @@ Cartoon, anime, illustration, CGI, 3D render, artificial skin, plastic face, exc
   },
   {
     image: 'images/xxx.png',
+    watermark: false, // is image me watermark pehle se bana hua hai (dobara mat lagao)
     title: 'Smoke Me',
     tags: ['Trending'],
     prompt: `Create a dark, moody, cinematic editorial portrait photograph in a vertical 9:16 aspect ratio.
@@ -84,6 +109,7 @@ Important: Preserve realistic human anatomy, natural hand and finger proportions
   },
   {
     image: 'images/New Project (4).png',
+    watermark: false, // is image me watermark pehle se bana hua hai (dobara mat lagao)
     title: 'Eye Blur Black',
     tags: ['Trending', 'Black'],
     prompt: `Create an ultra-realistic black-and-white cinematic portrait of a stylish young Indian man standing confidently indoors, captured from the waist up.
@@ -106,6 +132,7 @@ Important: Maintain realistic human proportions, natural facial details, and an 
   },
   {
     image: 'images/New Project (5).png',
+    watermark: false, // is image me watermark pehle se bana hua hai (dobara mat lagao)
     title: 'Black Scale',
     tags: ['Black', 'Trending', '19s'],
     prompt: `Create an ultra-realistic black-and-white vintage police mugshot-style portrait in a vertical 9:16 composition.
@@ -139,6 +166,7 @@ Photorealistic output, natural human anatomy, realistic facial proportions, accu
   },
   {
     image: 'images/Fg.png',
+    watermark: false, // is image me watermark pehle se bana hua hai (dobara mat lagao)
     title: 'Filmy Grains',
     tags: ['Trending'],
     prompt: `Create an ultra-realistic vintage 35mm film photograph in a vertical 2:3 portrait composition.
@@ -169,6 +197,7 @@ Maintain realistic anatomy, natural hand proportions, authentic facial features,
   },
   {
     image: 'images/New Project (7).png',
+    watermark: false, // is image me watermark pehle se bana hua hai (dobara mat lagao)
     title: 'Gredient Blue',
     tags: ['Trending', 'Black', 'Gredients'],
     prompt: `Create an ultra-realistic cinematic portrait of a young Indian man standing confidently in a dark, atmospheric studio, captured from the chest up.
@@ -187,30 +216,35 @@ Keep the face completely dark and unrecognizable. Do not add text, logos, or wat
   },
   {
     image: 'images/1.png',
+    watermark: false, // is image me watermark pehle se bana hua hai (dobara mat lagao)
     title: 'White Circle Portrait',
     tags: ['Trending', 'Portrait'],
     prompt: `A highly realistic professional portrait of a handsome young Indian boy with thick, voluminous, stylish black hair, wearing black round aviator sunglasses and a small silver stud earring. He is dressed in a red, white and pink oversized checkered shirt with sleeves rolled up, wearing a black smartwatch. He is standing confidently with one hand holding the opposite sleeve, looking slightly towards the left side. A large glowing white circular halo light behind his head, dark smoky charcoal grey studio background, cinematic lighting, premium professional photoshoot, sharp facial details, realistic skin texture, DSLR photography, 85mm lens, shallow depth of field, ultra HD, 8K quality, perfectly detailed, vertical 9:16 portrait.`
   },
   {
     image: 'images/2.png',
+    watermark: false, // is image me watermark pehle se bana hua hai (dobara mat lagao)
     title: 'Green',
     tags: ['Trending', 'Portrait'],
     prompt: `Ultra-realistic professional portrait of a handsome young Indian man with thick, voluminous, messy textured black hair, a neatly trimmed beard and mustache, and a charming natural smile. Wearing a stylish dark maroon button-down shirt with the top buttons open and sleeves casually rolled up, a thin black necklace with a silver pendant, and black trousers. Standing casually with both hands inside his trouser pockets, looking directly at the camera. Beautiful outdoor garden background with dark green and olive-colored blurred trees, cinematic natural lighting, soft golden sunlight, DSLR photography, creamy bokeh effect, realistic skin texture, professional fashion photoshoot, sharp facial details, 85mm portrait lens, ultra HD, 8K quality, vertical 9:16 composition.`
   },
   {
     image: 'images/3.png',
+    watermark: false, // is image me watermark pehle se bana hua hai (dobara mat lagao)
     title: 'P4',
     tags: ['Trending', 'photography'],
     prompt: `Ultra-realistic cinematic full-body portrait of a handsome young Indian boy with thick, voluminous, fluffy black hair styled in a messy Korean-inspired hairstyle, clean-shaven face and a serious yet confident expression. Wearing an oversized black denim jacket with a popped collar over a plain black T-shirt, paired with black jeans. A thin black necklace with a small silver pendant. Standing casually with one hand holding the bottom of his jacket and the other hand relaxed by his side, wearing a stylish silver ring. Moody outdoor background with dark green leaves on the left and a softly blurred grey concrete wall behind him. Dark cinematic atmosphere, muted black and grey color grading, soft natural lighting, professional fashion photography, realistic skin texture, sharp facial details, DSLR portrait, 85mm lens, shallow depth of field, ultra HD, 8K quality, vertical 9:16 composition.`
   },
   {
     image: 'images/4.png',
+    watermark: false, // is image me watermark pehle se bana hua hai (dobara mat lagao)
     title: 'Black Shoot',
     tags: ['Trending', 'Black', 'Portrait'],
     prompt: `Ultra-realistic cinematic romantic couple portrait of a young Indian boy and a beautiful young Indian girl standing closely together. The boy has thick, voluminous, messy fluffy black hair and a clean-shaven face, wearing an oversized black denim jacket over a plain black T-shirt, black jeans and a thin silver pendant necklace. The girl has long, naturally wavy black hair, a sweet smiling expression, wearing an oversized dark grey denim jacket over a black top with delicate layered necklaces. She is standing slightly behind the boy, lovingly wrapping one arm around his shoulders and resting her other hand gently on his chest. Both looking towards the camera. Beautiful natural couple pose, monochrome grey outdoor background with blurred trees and foliage, cinematic soft lighting, black and grey color grading, realistic skin texture, professional DSLR photography, shallow depth of field, 85mm lens, ultra-detailed, 8K quality, vertical 9:16 portrait.`
   },
   {
     image: 'images/5.png',
+    watermark: false, // is image me watermark pehle se bana hua hai (dobara mat lagao)
     title: 'Midday Shot',
     tags: ['Trending', 'Black'],
     prompt: `Create an ultra-realistic cinematic romantic photoshoot collage featuring the same young Indian boy in three different poses, arranged vertically in a beautiful 9:16 poster layout.
@@ -237,6 +271,7 @@ IMPORTANT: Use my uploaded photo as the exact face reference. Preserve my origin
   },
   {
     image: 'images/6.png',
+    watermark: false, // is image me watermark pehle se bana hua hai (dobara mat lagao)
     title: 'Green Garden',
     tags: ['Trending', 'Green'],
     prompt: `Create an ultra-realistic cinematic portrait of a stylish young Indian boy standing casually outdoors in a beautiful lush green garden.
@@ -255,6 +290,7 @@ IMPORTANT: Use my uploaded photo as the exact face reference. Preserve my origin
   },
   {
     image: 'images/7.png',
+    watermark: false, // is image me watermark pehle se bana hua hai (dobara mat lagao)
     title: 'P7',
     tags: ['Trending', 'Black'],
     prompt: `Create an ultra-realistic cinematic professional portrait of a handsome young Indian boy standing confidently outdoors, holding a professional Canon DSLR camera with a large white telephoto lens.
