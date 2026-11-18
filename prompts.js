@@ -19,14 +19,40 @@ window.CREATZO_PROMPTS = [
   {
     image: 'images/Red Lighting Aesthetic.png',
     title: 'Red Lighting Aesthetic',
-    tag: 'Red Lighting Aesthetic',
+    tag: 'Portrait,
     prompt: `Ultra-Realistic Cinematic Portrait – Red Lighting Aesthetic\n\nCreate an ultra-realistic, high-quality cinematic portrait photograph of a young South Asian man sitting casually against a dark grey upholstered sofa, captured in a vertical 9:16 composition.\n\nSubject & Appearance:\nA young man with naturally thick, voluminous, slightly messy black hair, styled in a textured fringe falling naturally across his forehead. Well-defined eyebrows, deep dark eyes, a straight nose, naturally shaped lips, a softly defined jawline, and realistic natural skin texture. Maintain authentic facial proportions, subtle facial details, and a relaxed, confident expression. His head is slightly tilted, looking directly into the camera with a calm, effortlessly stylish expression.\n\nOutfit:\nWearing a simple black knitted sweater with a subtle ribbed texture and a round neckline. Minimalist, completely black outfit with no visible logos, accessories, or unnecessary details.\n\nLighting & Color Grading:\nDramatic cinematic red lighting illuminating the left side of the subject's face, ear, neck, and cheek. The right side remains naturally darker, creating a beautiful contrast between intense crimson-red illumination and deep shadows. Soft red ambient light reflecting onto the background and sofa. Preserve natural skin tones beneath the red light. Deep blacks, rich shadows, subtle highlights, and professional cinematic color grading.\n\nBackground & Environment:\nMinimalist indoor setting with a dark charcoal-grey wall and a textured grey fabric sofa. The subject is leaning comfortably against the sofa. A subtle red glow appears on the wall behind him. Keep the environment dark, clean, and uncluttered.\n\nCamera & Composition:\nClose-up to medium-close portrait, slightly low camera angle, natural selfie-style perspective. Subject positioned centrally, with the face as the primary focal point. Vertical 9:16 framing, head and upper torso visible. Shallow depth of field with naturally soft background separation.\n\nPhotography Style:\nProfessional editorial portrait photography, cinematic moody atmosphere, low-key photography, dramatic red gel lighting, realistic skin pores, detailed individual hair strands, natural facial texture, realistic fabric details, subtle film grain, high dynamic range, accurate shadows, and premium DSLR photography aesthetics.\n\nQuality:\nUltra-photorealistic, 8K resolution, exceptionally detailed, sharp facial focus, natural texture, realistic lighting, professional photography, high-quality image processing.\n\nNegative Prompt:\nCartoon, anime, illustration, CGI, 3D render, artificial skin, plastic face, excessive smoothing, overexposure, blurry face, distorted facial features, asymmetrical eyes, extra fingers, deformed hands, unnatural hair, oversaturated red, harsh artificial sharpening, watermark, text, logo, low resolution, compression artifacts.`
   },
   {
-    image: 'images/New Project (3).png',
-    title: 'New Project (3)',
-    tag: 'New Project',
-    prompt: ``   // <-- yahan is image ka prompt paste karo
+    image: 'images/3.png',
+    title: 'Smoke Me',
+    tag: 'Trending,
+    prompt: 'Create a dark, moody, cinematic editorial portrait photograph in a vertical 9:16 aspect ratio.
+
+Subject: A young man with thick, messy, naturally curly black hair, wearing a plain black button-up shirt. He is sitting in a relaxed pose, looking sideways with a serious, emotionally detached expression. One hand is raised near his mouth, holding a cigarette between his fingers. His facial expression conveys loneliness, introspection, and emotional distance.
+
+Photography Style: Raw black-and-white analog film photography with strong contrast, visible film grain, subtle noise, deep blacks, textured shadows, and realistic skin details. Use dramatic low-key lighting with a slightly vintage underground photography aesthetic.
+
+Color Grading: Almost entirely monochrome grayscale, with a selective deep crimson-red overlay across the subject's face and hand. The red overlay should look like a translucent rectangular red light projection, creating an artistic dual-tone effect.
+
+Background: A simple, dark indoor setting with a rough concrete wall, visible vertical metal pipe on the left, and subtle hanging plant details in the upper-right corner. Keep the background dark, gritty, and slightly blurred.
+
+Composition: Medium close-up portrait, subject positioned slightly left of center, with the face and upper body clearly visible. Leave sufficient negative space on the right side for typography.
+
+Typography: Add bold, condensed, uppercase red sans-serif text on the right side, arranged in multiple short lines:
+
+"Reminding
+myself every
+night
+NOT TO GET
+ATTACHED"
+
+Use a bold editorial font similar to Anton or Bebas Neue. Text color: muted crimson red (#D94343). Right-aligned typography with balanced spacing.
+
+Mood & Atmosphere: Lonely, melancholic, emotionally detached, dark aesthetic, late-night thoughts, underground street photography, cinematic Instagram edit.
+
+Quality: Ultra-realistic photography, authentic analog film texture, sharp facial details, natural skin texture, high contrast, professional editorial composition.
+
+Important: Preserve realistic human anatomy, natural hand and finger proportions, realistic cigarette details, and clean readable typography. Avoid cartoon effects, excessive smoothing, artificial facial features, bright colors, or unnecessary decorative elements.'   // <-- yahan is image ka prompt paste karo
   },
   {
     image: 'images/New Project (4).png',
