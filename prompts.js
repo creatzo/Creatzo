@@ -185,10 +185,10 @@ Composition: Vertical 9:16 portrait, centered subject, chest-up framing, mysteri
 
 Keep the face completely dark and unrecognizable. Do not add text, logos, or watermarks.`
   },
-    {
+  {
     image: 'images/1.png',
     title: 'White Circle Portrait',
-    tags: ['Trending','Portrait'],
+    tags: ['Trending', 'Portrait'],
     prompt: `A highly realistic professional portrait of a handsome young Indian boy with thick, voluminous, stylish black hair, wearing black round aviator sunglasses and a small silver stud earring. He is dressed in a red, white and pink oversized checkered shirt with sleeves rolled up, wearing a black smartwatch. He is standing confidently with one hand holding the opposite sleeve, looking slightly towards the left side. A large glowing white circular halo light behind his head, dark smoky charcoal grey studio background, cinematic lighting, premium professional photoshoot, sharp facial details, realistic skin texture, DSLR photography, 85mm lens, shallow depth of field, ultra HD, 8K quality, perfectly detailed, vertical 9:16 portrait.`
   },
   {
@@ -206,7 +206,7 @@ Keep the face completely dark and unrecognizable. Do not add text, logos, or wat
   {
     image: 'images/4.png',
     title: 'Black Shoot',
-    tags: ['Trending', 'Black','Portrait'],
+    tags: ['Trending', 'Black', 'Portrait'],
     prompt: `Ultra-realistic cinematic romantic couple portrait of a young Indian boy and a beautiful young Indian girl standing closely together. The boy has thick, voluminous, messy fluffy black hair and a clean-shaven face, wearing an oversized black denim jacket over a plain black T-shirt, black jeans and a thin silver pendant necklace. The girl has long, naturally wavy black hair, a sweet smiling expression, wearing an oversized dark grey denim jacket over a black top with delicate layered necklaces. She is standing slightly behind the boy, lovingly wrapping one arm around his shoulders and resting her other hand gently on his chest. Both looking towards the camera. Beautiful natural couple pose, monochrome grey outdoor background with blurred trees and foliage, cinematic soft lighting, black and grey color grading, realistic skin texture, professional DSLR photography, shallow depth of field, 85mm lens, ultra-detailed, 8K quality, vertical 9:16 portrait.`
   },
   {
@@ -253,7 +253,7 @@ Photography: Professional DSLR fashion photography, realistic skin texture, natu
 
 IMPORTANT: Use my uploaded photo as the exact face reference. Preserve my original facial identity, face shape, eyes, nose, lips and skin tone. Do not change my face. Keep the result natural and photorealistic. ❤️`
   },
-    {
+  {
     image: 'images/7.png',
     title: 'P7',
     tags: ['Trending', 'Black'],
