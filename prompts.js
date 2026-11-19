@@ -1158,4 +1158,18 @@ Composition and Lighting: Vertical close-up, 85mm lens, framed by the diagonal l
 Negative Prompt
 tattoos, open mouth, visible teeth, broad smile, full color, cartoon, illustration, low resolution, blurry, distorted anatomy, flat lighting.`
   },
+  {
+    image: 'images/51.webp',
+    title: 'Radiant Aura',
+    tags: ['Trending', 'Boys', 'Portrait'],
+    prompt: `Create a hyper-realistic, ultra-detailed, 8k Ultra HD cinematic portrait of a handsome young man captured in a moment of pure, radiant joy. The composition is a medium close-up shot, focusing intimately on the subject from the chest up, positioned slightly off-center against a striking, solid-colored background. He is looking upwards and off-camera to his left, with a wide, genuine, and infectious smile that reveals his teeth. His head is tilted slightly back, exuding a sense of optimism, relaxation, and effortless charm.
+
+Focus with extreme, microscopic precision on the intricate details of his appearance and grooming. He has thick, dark, voluminous hair styled in a textured, swept-up, and slightly messy quiff. The brilliant, warm sunlight hits his hair from behind and above, creating a spectacular, glowing golden halo effect around the edges of his hair strands. His facial features are sharply defined, featuring a neatly groomed, short dark beard and a thin, perfectly shaped mustache that outlines his jawline and chin. His eyebrows are thick and well-defined. A small, silver stud earring is visible in his left earlobe. 
+
+His attire is a study in relaxed, layered modern style. He wears a crisp, bright white crew-neck t-shirt. The fabric appears soft and comfortable, with natural folds and subtle shadows indicating a high-quality cotton material. The t-shirt features a simple, thin silver chain necklace with a small rectangular pendant resting against his chest. Over the t-shirt, he wears a dark, heavy-knit cardigan or sweater. The knit fabric has a distinct, chunky texture and is worn casually, draping off his left shoulder, creating a striking visual contrast between the dark, textured knit and the smooth, bright white of the t-shirt beneath. 
+
+The lighting is the absolute hero of this image. It is a spectacular, high-contrast, cinematic lighting setup. A brilliant, warm, golden light source is positioned in the top left corner of the frame, acting as a powerful backlight and rim light. This light creates a stunning lens flare effect and bathes the left side of his face, neck, and hair in a rich, warm, ethereal glow. The rest of his face is illuminated by a softer, diffused fill light, ensuring all his features are perfectly clear. The lighting creates a strong, three-dimensional, almost sculptural quality to his face.
+
+The background is a solid, deeply saturated, and highly textured crimson red wall. The texture of the wall is visible, showing subtle imperfections and a matte finish. The intense red of the background provides a dramatic, bold, and visually striking contrast to the warm, golden light and the bright white of his t-shirt, making the subject pop off the screen. The overall color grading is rich, vibrant, and cinematic, with a slightly warm, vintage film-like quality. Every element, from the glowing strands of his hair and the texture of the knit cardigan to the crispness of his white t-shirt and the vividness of the red background, must be rendered with photorealistic, ultra-high-definition precision. Aspect Ratio: 3:4, Resolution: 736 x 981. 8k Ultra HD colourfull Cenmatic Images Quality, HDR IOS XHDR, DLRS, Background enhanced.`
+  },
 ];
