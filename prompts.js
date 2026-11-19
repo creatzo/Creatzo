@@ -1146,4 +1146,16 @@ tattoos, open mouth, visible teeth, color, cartoon, illustration, painting, low 
   "final_instruction": "Create a premium, photorealistic Formula 1 motorsport editorial portrait. Preserve the subject's natural facial identity if a reference photograph is provided. Reproduce the red Ferrari-inspired racing outfit, sponsor details, sunglasses, matching racing trousers and red number 16 helmet. Maintain the exact relaxed standing pose and clean off-white studio background."
 }`
   },
+  {
+    image: 'images/50.webp',
+    title: 'Car Window Portrait',
+    tags: ['Trending', 'Boys', 'Portrait'],
+    prompt: `Ultra-realistic black-and-white DSLR portrait of a young man framed through an open car door window.
+Pose and Expression: Leaning near the car, looking down and away with a serious expression and a strictly closed mouth (no teeth visible).
+Outfit and Accessories: Dark unbuttoned shirt with pushed-up sleeves and thick-framed black sunglasses.
+Hairstyle and Grooming: Messy, wavy dark hair with a short, neat beard and moustache. Absolutely no tattoos.
+Composition and Lighting: Vertical close-up, 85mm lens, framed by the diagonal lines of the car window. Soft natural light with a high-contrast monochrome finish.
+Negative Prompt
+tattoos, open mouth, visible teeth, broad smile, full color, cartoon, illustration, low resolution, blurry, distorted anatomy, flat lighting.`
+  },
 ];
