@@ -1015,4 +1015,135 @@ Camera and Composition: Vertical full-body mirror selfie, sharp focus on the sub
 Negative Prompt
 tattoos, open mouth, visible teeth, color, cartoon, illustration, painting, low resolution, blurry, distorted anatomy, artificial skin.`
   },
+  {
+    image: 'images/49.webp',
+    title: 'Formula 1',
+    tags: ['Trending', 'Boys'],
+    prompt: `Make the Image {
+  "image_type": "Photorealistic Luxury Formula 1 Racing Driver Portrait",
+  "aspect_ratio": "4:5",
+  "resolution": "Ultra HD 4K",
+  "photography_style": {
+    "genre": "Luxury Motorsport Editorial Photography",
+    "aesthetic": "Cinematic, Premium, Sporty, Modern, Minimalist",
+    "mood": "Confident, Cool, Powerful, Sophisticated",
+    "visual_quality": "Ultra-realistic professional fashion campaign"
+  },
+  "subject": {
+    "gender": "Male",
+    "age": "Young adult",
+    "appearance": "Natural masculine facial features, short dark textured hair, light stubble and a confident expression",
+    "pose": "Standing casually, facing slightly toward the camera",
+    "expression": "Relaxed, confident and composed",
+    "accessories": [
+      "Dark tinted rectangular sunglasses",
+      "Luxury metallic wristwatch"
+    ]
+  },
+  "outfit": {
+    "style": "Ferrari Formula 1 Racing Team Uniform",
+    "jacket": {
+      "type": "Red motorsport racing team jacket",
+      "color": "Deep Ferrari racing red",
+      "fit": "Relaxed oversized athletic fit",
+      "details": [
+        "Ferrari shield logo on chest",
+        "HP sponsor logo",
+        "Shell sponsor logo",
+        "UniCredit sponsor branding",
+        "Puma branding",
+        "IBM branding on inner collar",
+        "Multiple authentic-looking motorsport sponsor patches",
+        "High collar with zip closure",
+        "Ribbed cuffs and waistband"
+      ]
+    },
+    "innerwear": {
+      "type": "Red high-neck racing undershirt",
+      "details": "White IBM branding on collar"
+    },
+    "trousers": {
+      "type": "Matching Ferrari red racing trousers",
+      "fit": "Relaxed straight fit",
+      "details": [
+        "Ferrari branding",
+        "White Puma logo"
+      ]
+    }
+  },
+  "props": {
+    "primary_object": {
+      "type": "Formula 1 racing helmet",
+      "color": "Glossy red and white",
+      "number": "16",
+      "details": [
+        "UniCredit branding",
+        "Bin Defender branding",
+        "White geometric racing graphics",
+        "Black tinted visor",
+        "Professional motorsport helmet design"
+      ],
+      "position": "Held in the subject's left hand at waist-to-chest height"
+    }
+  },
+  "composition": {
+    "framing": "Three-quarter body portrait",
+    "camera_angle": "Eye-level",
+    "subject_position": "Slightly right of center",
+    "hand_position": "Left hand holding the racing helmet, right hand casually inside trouser pocket",
+    "body_language": "Effortless and relaxed motorsport fashion pose",
+    "background": "Clean off-white textured studio background",
+    "negative_space": "Minimal uncluttered background"
+  },
+  "lighting": {
+    "type": "Soft natural studio lighting",
+    "direction": "Diffused frontal lighting",
+    "shadows": "Subtle realistic shadows",
+    "highlights": "Natural highlights on sunglasses, helmet and jacket"
+  },
+  "color_grading": {
+    "dominant_colors": [
+      "Ferrari Red",
+      "Off White",
+      "Black",
+      "Silver"
+    ],
+    "contrast": "Medium cinematic contrast",
+    "saturation": "Rich but natural",
+    "tone": "Warm editorial film aesthetic"
+  },
+  "camera": {
+    "camera_type": "Professional full-frame DSLR",
+    "lens": "50mm portrait lens",
+    "aperture": "f/2.8",
+    "focus": "Sharp focus on subject's face and racing helmet",
+    "depth_of_field": "Natural subtle background separation"
+  },
+  "quality_settings": {
+    "realism": "Maximum photorealism",
+    "skin_texture": "Natural detailed skin texture",
+    "fabric_texture": "Highly detailed racing jacket fabric",
+    "helmet_details": "Sharp reflective visor and glossy helmet finish",
+    "resolution": "4K",
+    "no_ai_artifacts": true
+  },
+  "negative_prompt": [
+    "Cartoon",
+    "Anime",
+    "Illustration",
+    "3D render",
+    "Plastic skin",
+    "Blurry face",
+    "Distorted hands",
+    "Extra fingers",
+    "Incorrect helmet proportions",
+    "Unnatural body proportions",
+    "Oversaturated colors",
+    "Watermarks",
+    "Low resolution",
+    "Artificial lighting"
+  ],
+  "final_instruction": "Create a premium, photorealistic Formula 1 motorsport editorial portrait. Preserve the subject's natural facial identity if a reference photograph is provided. Reproduce the red Ferrari-inspired racing outfit, sponsor details, sunglasses, matching racing trousers and red number 16 helmet. Maintain the exact relaxed standing pose and clean off-white studio background."
+}`
+  },
 ];
