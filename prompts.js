@@ -1002,4 +1002,17 @@ Avoid blurry subject, low resolution, low detail, distorted face, incorrect faci
     tags: ['Trending', 'Boys', 'Gredients'],
     prompt: `Using a person's photo as the identfy refrence, create a minimalist cinematic fashion-editorial studio portrait with dramatic colored-gel lighting: vertical 4:5, mid-torso to head framing with generous negative space above, subject placed slightly left of center: pose: shoulders angled 3/4, head turned back toward camera, chin slightly lifted: expression calm, cool, slightly aloof, lips softly parted, eyes relaxed and focused: wardrobe: clean structured trench coat or minimalist overcoat with wide lapels and a single shoulder epaulette detail, no logos, no jewelry: lighting: strong saturated emerald-green gel key from camera-right/front-right (-5200K base under green gel) wrapping the face and coat, deep falloff into shadow on the far side, subtle soft fill from camera-left at very low intensity: background: a large circular "sun" spotlight/soft projection centered behind the head with a smooth radial gradient-bright amber core (#FF8A00) fading to deep burnt orange (#C43412) and then into near-black warm brown edges (#120408), perfectly clean and textureless: optics: 85mm portrait look, 1/2-1/2.8 shallow DOF (eyes tack sharp, background creamy), gentle bloom on highlights, smooth cinematic contrast, subtle film grain, rich color separation (green subject against orange halo), crisp micro-texture in fabric weave, controlled skin texture, no text, no watermark. Editorial, modern, high-detail, cinematic composition, ultra-realistic textures, professional fashion photography style.`
   },
+  {
+    image: 'images/48.webp',
+    title: 'Fashion Mirror Selfie',
+    tags: ['Trending', 'Boys', 'Black'],
+    prompt: `Create an ultra-realistic DSLR black-and-white indoor mirror selfie portrait of a young man.
+Pose and Expression: He is standing casually in front of a tall mirror, capturing a selfie with his white smartphone in his left hand. His right hand is tucked into his front pocket. He is looking intently at the phone screen with a serious expression. His mouth is strictly closed with no teeth visible.
+Outfit and Accessories: He wears a relaxed-fit dark short-sleeve t-shirt with stylized arched text graphic on the chest. He pairs it with light-wash relaxed-fit denim jeans and dark shoes. He wears a thin necklace with a small pendant.
+Hairstyle and Grooming: Thick, dark, wavy hair with high volume on top. He has a short, neat dark beard and moustache. Ensure absolutely no tattoos.
+Background and Props: An indoor room setting featuring plain white walls and architectural columns. The edge of a dark office chair is visible in the reflection to the right. Rendered in stark black and white for a cinematic photorealistic aesthetic.
+Camera and Composition: Vertical full-body mirror selfie, sharp focus on the subject in the reflection.
+Negative Prompt
+tattoos, open mouth, visible teeth, color, cartoon, illustration, painting, low resolution, blurry, distorted anatomy, artificial skin.`
+  },
 ];
